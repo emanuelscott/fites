@@ -19,7 +19,7 @@ export default function Home() {
     </article>
     </div>
 
-    <button type="button" className=" font-oswald text-white bg-[#BF0A0A] font-medium text-[16px] px-4 py-2 text-center mr-20 w-[200px] h-[60px]">LET'S START NOW</button>
+    <button type="button" className="font-oswald text-white bg-[#BF0A0A] font-medium text-[16px] px-4 py-2 text-center mr-20 w-[200px] h-[60px]">LET'S START NOW</button>
 
     </div>
 
@@ -30,7 +30,7 @@ export default function Home() {
   
     </div>
 
-    <div className="absolute z-10 bottom-80 mb-20">
+    <div className="absolute z-10 bottom-80">
     <img src="./line.png" className="w-screen h-[136px]"/>
     </div>
    

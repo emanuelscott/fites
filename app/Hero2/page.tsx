@@ -3,8 +3,9 @@ import React from 'react'
 
 const HeroContinue = () => {
   return (
-    <main className='w-screen h-screen bg-black mt-40 flex flex-col'>
-            <img src='./line2.png' className=''/>
+    <main className='w-screen h-screen bg-black mt-60 flex flex-col'>
+            <img src='./line2.png'/>
+            <div className='flex flex-col'>
     <div className='flex flex-row mt-10'>
       <img src='./model3.png' className='ml-32'/>
     <div className='flex flex-col ml-40 text-center'>
@@ -87,10 +88,10 @@ const HeroContinue = () => {
 
     
 
-    <img src='./model4.png'/>
+    <img src='./model4.png' className='ml-16'/>
     </div>
-    <img src="./line3.png" className="w-screen h-[164px] "/>
-
+    <img src="./line.png" className="w-screen h-[164px] "/>
+    </div>
     </main>
   )
 }

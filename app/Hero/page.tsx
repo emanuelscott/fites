@@ -60,7 +60,7 @@ const Hero = () => {
     </article>
     </div>
    
-    <p className='text-[#D80000] text-[18px] font-oswald uppercase mt-5 '>
+    <p className='text-[#D80000] text-[18px] font-oswald uppercase mt-8 '>
     Glute  Maximizer  Program:
     </p>
 
@@ -95,21 +95,21 @@ const Hero = () => {
         <p className='font-oswald text-[18px] font-light '>Flexible meal plans for optimal results.</p>
       </div>
 
-      <button type="button" className=" font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-5 mr-20 w-[210px] h-[60px]">Start Women's program</button>
+      <button type="button" className=" font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-20 mr-20 w-[210px] h-[60px]">Start Women's program</button>
 
          </div>
 
          <div className="flex flex-row ">
-      <img src='./vertical.png' className='h-[360px] mt-80' />
-      <img src="./woman.png" className="h-[676px] w-[324px] mt-10"/>
+      <img src='./max.png' className='h-[360px] mt-80 ' />
+      <img src="./woman.png" className="h-[676px] w-[324px] mt-10 "/>
 
       <img src="./woman2.png" className="h-[676px] mb-2 "/>
-      <img src='./circle.png' className='w-[133.42px] h-[133.47px] mt-80'/>
+      <img src='./circle.png' className='w-[133.42px] h-[133.47px] mt-80 mr-4'/>
       </div>
   
        </div>
     
-  
+
     </div>
   )
 }
