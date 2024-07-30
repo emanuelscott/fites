@@ -7,12 +7,6 @@
 * {
   @apply transition-colors duration-200;
 }
-  {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  }
-
 
 body {
   font-family: Chakra Petch;
