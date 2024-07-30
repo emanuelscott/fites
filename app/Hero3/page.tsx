@@ -37,7 +37,6 @@ const Rating = () => {
 </div>
        <img src='./next.png' className='mr-20'/>
     </div>
-    <img src='./line4.png' className='mt-60'/>
 </div>
        
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='bottom-0 left-0 p-4 flexBetween w-screen bg-[#0C0C0C] ' >
+    <footer className='p-4 flexBetween w-screen bg-[#0C0C0C] ' >
             <div className="mx-auto w-screen">
 
       <div className="grid grid-cols-2 gap-6 px-4 py-6 lg:py-8 md:grid-cols-4 xl:grid-cols-6 ml-20 mt-10">
@@ -13,8 +13,8 @@ const Footer = () => {
         </div>
         </div>
 
-        <div >
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white font-oswald ">ES FITNESS</h2>
+        <div className='ml-20'>
+            <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white font-oswald ">ES FITNESS</h2>
             <ul className="text-[#D5D5D5] font-light  uppercase font-oswald">
                 <li className="mb-4">
                     <a href="#" className="hover:underline">home</a>
@@ -30,8 +30,8 @@ const Footer = () => {
                 </li>
             </ul>
         </div>
-        <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white font-oswald">SERVICE</h2>
+        <div className='ml-10'>
+            <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white font-oswald">SERVICE</h2>
             <ul className="text-[#D5D5D5] font-light uppercase font-oswald">
                 <li className="mb-4">
                     <a href="#" className="hover:underline">Booty Builder Program</a>
@@ -50,8 +50,8 @@ const Footer = () => {
                 </li>
             </ul>
         </div>
-        <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 dark:text-white uppercase font-oswald">social media</h2>
+        <div className='ml-14'>
+            <h2 className="mb-4 text-sm font-semibold text-gray-900 dark:text-white uppercase font-oswald">social media</h2>
             <ul className="text-[#D5D5D5] font-light uppercase font-oswald">
                 <li className="mb-4">
                     <a href="#" className="hover:underline">instagram</a>
@@ -67,8 +67,8 @@ const Footer = () => {
                 </li>
             </ul>
         </div>
-        <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 dark:text-white uppercase font-oswald">links</h2>
+        <div className='ml-5'>
+            <h2 className="mb-4 text-sm font-semibold text-gray-900 dark:text-white uppercase font-oswald">links</h2>
             <ul className="text-[#D5D5D5] font-light  uppercase font-oswald">
                 <li className="mb-4">
                     <a href="#" className="hover:underline">contact</a>
@@ -83,13 +83,17 @@ const Footer = () => {
         </div>
 
         <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 dark:text-white uppercase font-oswald">download mobible apps</h2>
+            <h2 className="mb-4 text-sm font-semibold text-gray-900 dark:text-white uppercase font-oswald">download mobible apps</h2>
             <ul className="text-[#D5D5D5] font-light uppercase font-oswald">
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">contact</a>
+                    <a href="#" className="">
+                        <img src='./android.png'/>
+                    </a>
                 </li>
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">privacy policy</a>
+                    <a href="#" className="">
+                        <img src='./apple.png'/>
+                    </a>
                 </li>
                
             </ul>
@@ -108,4 +112,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;

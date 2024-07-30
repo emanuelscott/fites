@@ -1,3 +1,5 @@
+import Footer from "./Footer/page";
+import Blog from "./Blog/page";
 import Hero from "./Hero/page";
 import HeroContinue from "./Hero2/page";
 import Rating from "./Hero3/page";
@@ -39,6 +41,8 @@ export default function Home() {
       <Hero />
       <HeroContinue />
       <Rating />
+      <Blog />
+      <Footer/>
    </main>
   );
 }
