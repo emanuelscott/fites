@@ -1,10 +1,10 @@
 'use client'
 import React from 'react'
-import Mastermind from './Mastermind/page'
-import Highlights from './Highlights/page'
-import Mindset from './Mindset/page'
-import Personalized from './Personalized/page'
-import Potential from './Potential/page'
+import Mastermind from './Mpackage/Mastermind/page'
+import Highlights from './Mpackage/Highlights/page'
+import Mindset from './Mpackage/Mindset/page'
+import Personalized from './Mpackage/Personalized/page'
+import Potential from './Mpackage/Potential/page'
 import Footer from '../Footer/page'
 
 const Services = () => {
