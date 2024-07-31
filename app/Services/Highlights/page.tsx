@@ -2,14 +2,14 @@ import React from 'react'
 
 const Highlights = () => {
   return (
-    <main className='w-screen h-[673px]'>
+    <main className="w-screen h-[673px] ">
         <div className='flex flex-col '>
             <span className='text-[#D80000] text-[48px] font-medium uppercase text-center'>
                 program Highlights
             </span>
 
-        <div className='flex flex-row flexBetween mt-20'>
-             <div className='flex flex-col '>
+        <div className='flex flex-row flexBetween mt-20 ml-14 '>
+             <div className='flex flex-col'>
             <span className='uppercase text-[38px] font-medium ml-64'>
             Intensive Strength Training
             </span>
@@ -68,7 +68,7 @@ const Highlights = () => {
                 </div>
             </div>
 
-            <img src='./es4.png' className='mr-40'/>
+            <img src='./es4.png' className='mr-80'/>
         </div>
 
 

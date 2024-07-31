@@ -2,10 +2,10 @@ import React from 'react'
 
 const Personalized = () => {
   return (
-    <main className='w-screen h-[591px]'>
+    <main className="w-screen h-[591px]">
     <div className='flex flex-col '>
 
-    <div className='flex flex-row flexBetween mt-20'>
+    <div className='flex flex-row flexBetween mt-20 ml-14 '>
          <div className='flex flex-col '>
         <span className='uppercase text-[38px] font-medium ml-64'>
         Personalized Nutrition Plans
@@ -64,7 +64,7 @@ const Personalized = () => {
             </div>
         </div>
 
-        <img src='./es4.png' className='mr-40'/>
+        <img src='./es6.png' className='mr-80 '/>
     </div>
 
 

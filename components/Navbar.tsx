@@ -30,7 +30,7 @@ const Navbar = () => {
         <a href="#" className="block py-2 px-3 md:p-0 text-white text-[18px] rounded hover:bg-gray-100 md:hover:bg-transparent hover:text-[#BF0A0A]">ABOUT</a>
       </li>
       <li>
-        <a href="#" className="block py-2 px-3 md:p-0 text-white text-[18px] rounded hover:bg-gray-100 md:hover:bg-transparent hover:text-[#BF0A0A] font-os">SERVICES</a>
+        <a href="http://localhost:3000/Services" className="block py-2 px-3 md:p-0 text-white text-[18px] rounded hover:bg-gray-100 md:hover:bg-transparent hover:text-[#BF0A0A] font-os">SERVICES</a>
       </li>
       <li>
         <a href="#" className="block py-2 px-3 md:p-0 text-white text-[18px] rounded hover:bg-gray-100 md:hover:bg-transparent  hover:text-[#BF0A0A]">BLOG</a>

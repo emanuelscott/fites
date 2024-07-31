@@ -5,10 +5,10 @@ const Mindset = () => {
     <main className='w-screen h-[673px] bg-black'>
         <div className='flex flex-col '>
 
-        <div className='flex flex-row flexBetween mt-20'>
-        <img src='./es5.png' className='ml-64'/>
+        <div className='flex flex-row flexBetween mt-20 '>
+        <img src='./es5.png' className='ml-80'/>
 
-             <div className='flex flex-col '>
+             <div className='flex flex-col mr-40'>
             <span className='uppercase text-[38px] font-medium text-white'>
             mindset coaching
             </span>
@@ -61,7 +61,7 @@ const Mindset = () => {
         </div>
 
 
-           <img src='./line6.png' className='h-[180px] mt-6'/>
+           <img src='./line6.png' className='h-[180px] mt-6 '/>
         </div>
     </main>
   )

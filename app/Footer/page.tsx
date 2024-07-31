@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className='p-4 flexBetween w-screen bg-[#0C0C0C] ' >
             <div className="mx-auto w-screen">
-
+                
       <div className="grid grid-cols-2 gap-6 px-4 py-6 lg:py-8 md:grid-cols-4 xl:grid-cols-6 ml-20 mt-10">
         <div>
             <img src='./logo.png' className='mt-12 '/>
