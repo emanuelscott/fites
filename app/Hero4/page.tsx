@@ -1,26 +1,20 @@
 import React from 'react'
 
-
-const HeroContinue = () => {
+const Hero4 = () => {
   return (
+   
     <main className='w-screen h-screen bg-black mt-60 flex flex-col'>
     <img src='./line2.png'/>
     <div className='flex flex-col'>
-<div className='text-center flex flex-col items-center'>
-        
-        <p className='font-oswald font-medium uppercase text-[38px] text-center mt-10'>
-        Women Unleash Your Potential Within
-          </p>
-
-
-        <p className='mt-2 font-oswald font-light text-[18px]'>
-        At Emanuel Scott Fitness, we understand that women have unique fitness goals. Our specialized programs are designed                  </p>
-          <p className='font-oswald font-light text-[18px]'>
-          to help you grow your Glutes and tighten your waist, enhancing your natural curves and boosting your confidence.                  </p>
-
-
-
-</div>
+<div className='flex flex-row mt-10'>
+<img src='./model3.png' className='ml-32'/>
+<div className='flex flex-col ml-40 text-center'>
+<p className="font-semibold font-oswald bg-gradient-to-r from-[#FFFFFF] to-[#999999] text-transparent bg-clip-text text-[38px] uppercase">
+Men Unleash Your
+</p>
+<span className="font-semibold font-oswald bg-gradient-to-r from-[#FFFFFF] to-[#999999] inline-block text-transparent bg-clip-text text-[38px] uppercase">
+Potential Within
+</span>
 
 
 <p className='font-oswald text-[18px] text-white font-light mt-2 text-center'>
@@ -95,11 +89,11 @@ heating up package:
 
 
 <img src='./model4.png' className='ml-16'/>
-
+</div>
 <img src="./line.png" className="w-screen h-[164px] "/>
-
+</div>
 </main>
   )
 }
 
-export default HeroContinue
+export default Hero4
