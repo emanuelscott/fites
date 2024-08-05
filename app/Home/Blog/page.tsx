@@ -5,7 +5,7 @@ const Blog = () => {
    
     
   return (
-   <main className='bg-black w-screen h-screen mt-48'>
+   <main className='bg-black w-screen h-[840px] mt-48'>
         <img src='./line4.png' className='w-screen '/>
 
     <div className='flex flex-col mt-8'>

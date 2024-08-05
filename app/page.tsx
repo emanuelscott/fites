@@ -1,8 +1,10 @@
 import Footer from "./Footer/page";
-import Blog from "./Blog/page";
-import Hero from "./Hero/page";
-import HeroContinue from "./Hero2/page";
-import Rating from "./Hero3/page";
+import Blog from "./Home/Blog/page";
+import Hero from "./Home/Hero/page";
+import HeroContinue from "./Home/Hero2/page";
+import Hero3 from "./Home/Hero3/page";
+import Rating from "./Home/Rating/page";
+import Reprogram from "./Home/Reprogram/page";
 
 export default function Home() {
  
@@ -127,6 +129,8 @@ export default function Home() {
 
       <Hero />
       <HeroContinue/>
+      <Hero3/>
+      <Reprogram/>
       <Rating />
       <Blog/>
 
