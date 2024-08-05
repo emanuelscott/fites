@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     
 
-<nav className="border-gray-200 bg-black">
+<nav className="border-gray-200 bg-black opacity-50">
   <div className="w-screen flex flex-wrap items-center justify-between mx-auto p-4">
   <div className='flex flex-row items-center'>
   <img src='./cross.png' className='w-[52px] h-[32.1px] ml-8'/>
@@ -24,7 +24,7 @@ const Navbar = () => {
   <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
     <ul className="flex flex-col font-oswald p-4 md:p-0 mt-4 border border-gray-100 bg-black xl:space-x-20 md:space-x-14 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-black ">
       <li>
-        <a href="#" className="block py-2 px-3 md:p-0 text-white text-[18px] bg-black rounded md:bg-transparent hover:text-[#BF0A0A]" aria-current="page">HOME</a>
+        <a href="http://localhost:3000/" className="block py-2 px-3 md:p-0 text-white text-[18px] bg-black rounded md:bg-transparent hover:text-[#BF0A0A]" aria-current="page">HOME</a>
       </li>
       <li>
         <a href="#" className="block py-2 px-3 md:p-0 text-white text-[18px] rounded hover:bg-gray-100 md:hover:bg-transparent hover:text-[#BF0A0A]">ABOUT</a>
