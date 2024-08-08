@@ -3,12 +3,12 @@ import React from 'react'
 const Hero3 = () => {
   return (
    
-    <main className='w-screen h- bg-white flex flex-col'>
+    <main className='w-screen h-[700px] bg-white flex flex-col'>
   
-    <div className='flex flex-col '>
-<div className='flex flex-row mt-10'>
-<img src='./model3.png' className='ml-32'/>
-<div className='flex flex-col ml-40 text-center items-center'>
+    <div className='flex flex-col'>
+<div className='flex flex-row mt-10 flexCenter'>
+  <img src='./model3.png'/>
+<div className='flex flex-col text-center items-center ml-10 mb-40 box w-[443px] h-[567px]'>
 <p className="font-semibold font-oswald text-[#D80000] text-[38px] uppercase">
 Commitment to Excellence
 </p>
@@ -54,7 +54,7 @@ Limited Spots Available
 
 
 
-<img src='./model4.png' className='ml-16'/>
+<img src='./model4.png' className=''/>
 </div>
 </div>
 </main>
