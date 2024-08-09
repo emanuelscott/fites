@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 
+
 export const metadata: Metadata = {
   title: "ESFitness",
   description: "Fitness Webpage",
@@ -20,7 +21,7 @@ export default function RootLayout({
         <main>
         {children}
         </main>
-    
+  
         </body>
     </html>
   );
