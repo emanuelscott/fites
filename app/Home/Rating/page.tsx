@@ -7,11 +7,11 @@ const Rating = () => {
         <div className='text-[#D80000] text-[38px] font-medium font-oswald text-center uppercase mt-20'>
         What do they say about Emanuel Scott Fitness ?
           </div>
-          <div className='flex flex-row flexBetween justify-center items-center mt-20'>
-       <img src='./previous.png' className='ml-20 '/>
+          <div className='flex flex-row flexCenter gap-5 justify-center items-center mt-20'>
+       <img src='./previous.png' className=' '/>
 
     
-       <div className='box w-[513px] h-[284px] bg-[#F6F6F6]  '>
+       <div className='box w-[513px] h-[284px] bg-[#F6F6F6] '>
        <div className='flex flex-col flexCenter'>
        <img src='./stars.png' className='mt-4'/>
           <span className='text-balance text-center text-[22px] indent-4'>
@@ -41,7 +41,7 @@ const Rating = () => {
           </span>
        </div>
 </div>
-       <img src='./next.png' className='mr-20'/>
+       <img src='./next.png' className=''/>
     </div>
 </div>
   

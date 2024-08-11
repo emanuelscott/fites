@@ -1,20 +1,19 @@
 import React from 'react'
 
-const Achieve = () => {
+const Elevate = () => {
   return (
     <div className='bg-black w-screen'>
       <img src='./peak.png' className='w-screen'/>
         <div className='flex flex-col flexCenter'>
             <div className='box mt-10 w-[439px] h-[92px] text-center text-balance'>
             <h1 className='uppercase text-[38px] text-white font-medium '>
-            Achieve Peak Performance and Beyond
-            </h1>
+            Elevate Your Endurance to Elite Levels
+                        </h1>
             </div> 
 
             <div className=' mt-10 box w-[515px] h-[108px] text-center font-light'>
             <p className='text-white text-[18px]'>
-            The Peak Performance Program at Emanuel Scott Fitness is your ultimate pathway to unlocking your physical and mental potential. With expert coaching, personalized plans, and a supportive community, you'll have everything you need to achieve peak strength, resilience, and overall well-being.
-            </p>
+            The Endurance Elite Program at Emanuel Scott Fitness is your ultimate guide to building unparalleled stamina and functionality. With expert coaching, personalized training plans, and a holistic approach, you'll have everything you need to boost your endurance, enhance your fitness, and achieve peak performance in all areas of life.            </p>
             </div>
 
             <a href=''>
@@ -27,4 +26,4 @@ const Achieve = () => {
   )
 }
 
-export default Achieve
+export default Elevate

@@ -10,16 +10,15 @@ const Landing = () => {
           Men's Program
           </h2>
       <p className='text-white text-[48px] uppercase font-medium'>
-      Peak Performance Program
+        endurance elite Program
       </p>
 
       <div className='box w-[484px] h-[101px] text-center'>
       <h3 className='text-white font-light'>
-      Unlock your full potential with a blend of strength training and mental toughness techniques. This program features a 12-week structured workout plan, personalized coaching, and tools to enhance both physical and mental resilience, supported by weekly live check-ins and continuous app support.
-      </h3>
+      Boost your stamina and overall functionality with dynamic stamina routines and functional fitness exercises. The program emphasizes recovery optimization, personalized life coaching, and video-guided exercises, complemented by custom nutrition plans and detailed progress tracking.      </h3>
       </div>
 
-      <a href='http://localhost:3000/Peak'>
+      <a href='http://localhost:3000/Endurance'>
   <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase  w-[210px] h-[60px] ">
       let's start now
   </button>

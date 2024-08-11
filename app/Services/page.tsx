@@ -1,5 +1,6 @@
 'use client'
 import React from 'react'
+import Footer from '../Footer/page'
 
 
 const Services = () => {
@@ -268,6 +269,8 @@ const Services = () => {
         </div>
     </div>
 
+
+
     <div className="flex flex-row flexCenter mt-28 gap-x-3">
 <div className='box text-white bg-[#0C0C0C] w-[307px] h-[480px] flex flex-col '>
   <img src='./strength.png' className='w-[60px] h-[60px] mt-5 ml-10'/>
@@ -342,12 +345,14 @@ const Services = () => {
       Access to a private community.
                 </p>
   </div>
-  <a href=''>
+  <a href='http://localhost:3000/Peak'>
   <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-12 ml-10 w-[210px] h-[60px] ">
   learn more
   </button>
   </a>
 </div>
+
+
 
 
 <div className='box text-white bg-[#0C0C0C] w-[307px] h-[480px] flex flex-col gap-y-1'>
@@ -414,8 +419,8 @@ const Services = () => {
   </div>
 
  
-  <a href=''>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-16 ml-10 w-[210px] h-[60px] ">
+  <a href='http://localhost:3000/Endurance'>
+    <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-16 ml-10 w-[210px] h-[60px] ">
   learn more
   </button>
   </a>
@@ -488,13 +493,17 @@ const Services = () => {
   </div>
 
 
-  <a href=''>
+  <a href='http://localhost:3000/Cardio'>
   <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-14 ml-10 w-[210px] h-[60px] ">
   learn more
   </button>
   </a>
           </div>
         </div>
+        <div className='invisible mb-40'>
+
+        </div>
+        <Footer/>
     </main>
   )
 }
