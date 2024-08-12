@@ -6,8 +6,8 @@ const Hero3 = () => {
     <main className='w-screen h-[700px] bg-white flex flex-col'>
   
     <div className='flex flex-col'>
-<div className='flex flex-row mt-10 flexCenter'>
-  <img src='./model3.png'/>
+<div className='flex flex-row flexCenter'>
+  <img src='./esgradient.png'/>
 <div className='flex flex-col text-center items-center ml-10 mb-40 box w-[443px] h-[567px]'>
 <p className="font-semibold font-oswald text-[#D80000] text-[38px] uppercase">
 Commitment to Excellence
@@ -54,7 +54,7 @@ Limited Spots Available
 
 
 
-<img src='./model4.png' className=''/>
+<img src='./esgradient2.png' className=''/>
 </div>
 </div>
 </main>

@@ -28,15 +28,15 @@ export default function Home() {
 
     </div>
 
-     <div className="flex flex-row relative">
-      <img src="./model2.png" className="h-[667.37px] w-[504px] absolute top-16 right-60"/>
-      <img src="./model.png" className="h-[643.73px] mr-4 mt-10"/>
+    <div className="flex flex-row ">
+      <img src="./homelanding.png" className="h-[667.37px] w-[739px] "/>
       </div>
+  
   
     </div>
      
     <div className="flex flex-col text-center gap-y-2 bg-black">
-        <h1 className="text-[#D80000] text-[38px] font-medium mt-40 uppercase">
+        <h1 className="text-[#D80000] text-[38px] font-medium mt- uppercase">
         Are You Stuck in Survival Mode?
         </h1>
 
@@ -119,7 +119,7 @@ export default function Home() {
              </p>
              </div>
              
-             <img src="./line7.png" className="w-screen h-[136.66px]"/>
+             <img src="./landingline.png" className="w-screen h-[81px] mt-2"/>
 
       </div>
       
