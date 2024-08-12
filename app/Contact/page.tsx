@@ -1,20 +1,18 @@
 import React from 'react';
 import Image from 'next/image';
 import './Contact.css';
-import instagramIcon from '../../public/mdi_instagram.png'; 
-import tiktokIcon from '../../public/ph_tiktok-logo-light.png'; 
-import twitterIcon from '../../public/akar-icons_x-fill.png'; 
-import youtubeIcon from '../../public/hugeicons_youtube.png'; 
+import instagramIcon from '../../public/inst.png'; 
+import tiktokIcon from '../../public/tiktok.png'; 
+import twitterIcon from '../../public/x.png'; 
+import facebookIcon from '../../public/facebook.png';  
+import emanImage from '../../images/eman.png';  // Change this line to use the correct path to the new image
 
 const Contact = () => {
   return (
     <div className="contact-page">
       <div className="contact-form">
-        <h2>CONTACT</h2>
-        <h3>
-          WE ARE READY TO HELP YOU&nbsp;<br />
-          AND TRANSFORM YOUR LIFE!
-        </h3>
+        <h2>CONTACT US</h2>
+        <h3>WE ARE READY TO HELP YOU AND TRANSFORM YOUR LIFE!</h3>
         <form>
           <div className="form-group">
             <div className="form-field">
@@ -23,44 +21,53 @@ const Contact = () => {
             </div>
             <div className="form-field">
               <label htmlFor="email">E-MAIL</label>
-              <input type="email" id="email"  />
+              <input type="email" id="email" />
             </div>
           </div>
           <div className="form-group">
             <div className="form-field">
               <label htmlFor="phone">PHONE</label>
-              <input type="tel" id="phone"  />
+              <input type="tel" id="phone" />
             </div>
             <div className="form-field">
-              <label htmlFor="subject">SUBJECT</label>
-              <input type="text" id="subject"  />
+              <label htmlFor="service">SERVICE</label>
+              <select id="service">
+                <option value="sculpt">SCULPT & TONE PROGRAM</option>
+                <option value="muscle">MUSCLE BUILDING</option>
+                <option value="weightloss">WEIGHT LOSS</option>
+              </select>
             </div>
           </div>
           <div className="form-field">
             <label htmlFor="message">MESSAGE</label>
-            <textarea id="message" ></textarea>
+            <textarea id="message"></textarea>
           </div>
           <button type="submit">SEND MESSAGE</button>
         </form>
       </div>
-      <div className="social-media">
-        <h3>FOLLOW SOCIAL MEDIA</h3>
-        <div className="social-icons">
-          <div className="icon">
-            <Image src={instagramIcon} alt="Instagram" />
-            <p>INSTAGRAM</p>
-          </div>
-          <div className="icon">
-            <Image src={tiktokIcon} alt="TikTok" />
-            <p>TIKTOK</p>
-          </div>
-          <div className="icon">
-            <Image src={twitterIcon} alt="Twitter" />
-            <p>X/TWITTER</p>
-          </div>
-          <div className="icon">
-            <Image src={youtubeIcon} alt="YouTube" />
-            <p>YOUTUBE</p>
+      <div className="image-and-social-media">
+        <div className="contact-image">
+          <Image 
+            src={emanImage}  
+            alt="Contact Image" 
+            layout="fill"
+            objectFit="cover"
+          /> 
+        </div>
+        <div className="social-media">
+          <div className="social-icons">
+            <div className="icon">
+              <Image src={instagramIcon} alt="Instagram" />
+            </div>
+            <div className="icon">
+              <Image src={tiktokIcon} alt="TikTok" />
+            </div>
+            <div className="icon">
+              <Image src={twitterIcon} alt="X/Twitter" />
+            </div>
+            <div className="icon">
+              <Image src={facebookIcon} alt="Facebook" />
+            </div>
           </div>
         </div>
       </div>
