@@ -20,7 +20,7 @@ export default function Home() {
 
    <div className="border border-black bg-black w-[700px] h-[132px]"> 
     <article className="text-balance text-[#ECECEC] text-[16px] font-oswald font-extralight">
-      <p>At emanuel scott fitness, we believe that greatness lies within each of us. Our mission is to empower you to discover your inner strength and achieve the extraordinary. We focus on the whole person concept, recognizing that true fitness is not just physical but also encompasses spiritual, mental, and financial well-being. By pushing you into your destiny and serving your higher purpose, we guide you through every step of your transformative journey.</p>
+      <p>At Emanuel Scott Fitness, we believe that greatness lies within each of us. Our mission is to empower you to discover your inner strength and achieve the extraordinary. We embrace the whole person concept, recognizing that true fitness begins with the physical and transcends to encompass spiritual, mental, emotional, social, and financial well-being. By guiding you into your destiny and serving your higher purpose, we support you through every step of your transformative journey.</p>
     </article>
     </div>
 
