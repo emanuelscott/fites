@@ -1,0 +1,140 @@
+body, .contact-page {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .contact-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 60px; 
+    height: 100vh;
+    align-items: center; 
+    font-size: 1.15em; 
+  }
+  
+  .contact-form {
+    width: 40%; 
+  }
+  
+  .contact-form h2 {
+    color: red;
+    font-size: 1.9em; 
+    text-transform: uppercase;
+  }
+  
+  .contact-form h3 {
+    font-size: 2.5em; 
+    margin: 20px 0;
+    text-transform: uppercase;
+  }
+  
+  .contact-form .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 17px; 
+  }
+  
+  .contact-form .form-field {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+  }
+  
+  .contact-form label {
+    margin-bottom: 6px; 
+    font-size: 1.05em; 
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form select {
+    padding: 12px; 
+    background-color: #333;
+    border: none;
+    color: #fff;
+    font-size: 1.05em; 
+  }
+  
+  .contact-form input,
+  contact-form select {
+    height: 53px; 
+    margin-bottom: 17px; 
+  }
+  
+  contact-form textarea {
+    width: 100%; 
+    height: 150px; 
+    margin-bottom: 17px;
+    resize: none; 
+  }
+  
+  .contact-form button {
+    background-color: red;
+    color: #fff;
+    padding: 12px 17px; 
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 1.15em; 
+    width: 50%;
+    align-self: flex-start;
+    margin-top: 20px; 
+  }
+  
+  .image-and-social-media {
+    display: flex;
+    width: 55%; 
+    height: 90%; 
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contact-image {
+    position: relative; 
+    width: 60%; 
+    height: 100%; 
+  }
+  
+  .social-media {
+    width: 35%; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    justify-content: center; 
+  }
+  
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+  }
+  
+  .social-icons .icon {
+    background-color: #333;
+    padding: 10px; 
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icons .icon img {
+    width: 35px; 
+    height: 35px; 
+    filter: invert(100%); 
+    transition: all 0.3s ease; 
+  }
+  
+  .social-icons .icon:hover img {
+    filter: brightness(1000%); 
+  }
+  
+  .social-icons .icon:hover {
+    background-color: red; 
+  }
