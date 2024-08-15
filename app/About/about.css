@@ -1,0 +1,153 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+    grid-gap: 2px; /* Gap between grid items */
+    padding-left: "1%"  
+  }
+
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Three equal-width columns */
+    grid-gap: 2px; /* Gap between grid items */
+    padding-left: "10%"  
+  }
+  .grid-container-top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+   /* Gap between grid items */
+    padding-left: "1%"  
+  }
+  @media (max-width:786px) {
+    
+    .grid-container-top {
+   
+      grid-template-columns: repeat(1, 1fr); 
+  
+    }
+    #intro1 ,#intro2{
+      display: none; /* Show only the 3rd and 4th photos */
+  }
+  }
+  .grid-container-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Three equal-width columns */
+    grid-gap: 2px; /* Gap between grid items */
+
+  }
+
+  .grid-container3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Three equal-width columns */
+    grid-gap: 2px; /* Gap between grid items */
+
+  }
+
+  .grid-container-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Three equal-width columns */
+    grid-gap: 2px; /* Gap between grid items */
+
+  }
+  
+  @media (max-width:786px) {
+    
+    .grid-container-image {
+      
+      grid-template-columns: repeat(1, 1fr); /* Three equal-width columns */
+ /* Gap between grid items */
+
+  
+    }
+    
+  }
+  .grid-container-images {
+    display: grid;
+    grid-template-columns: repeat(5, 5fr); /* Three equal-width columns */
+    grid-gap: 0px; /* Gap between grid items */
+    padding-left: "-80px"  
+  }
+  @media (max-width: 768px) {
+    .grid-container-images {
+      display: grid;
+      grid-template-columns: repeat(2, 5fr);
+      overflow-x:scroll;
+  /* Hide all photos by default */
+        width: 100%; /* Set width for scrolling */
+        flex-shrink: 0; 
+    /* Enable vertical scrolling */
+    }
+    #photo1, #photo2,#photo5 {
+      display: none; /* Show only the 3rd and 4th photos */
+  }
+
+    #photo3, #photo4 {
+      display: flex; /* Show only the 3rd and 4th photos */
+  }
+/*   
+  .grid-item {
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+  } */
+
+  /* .item {
+    flex: 1 1 200px; /* Grow, shrink, basis */
+  
+/* } */ 
+   @media (min-width: 1440px) {
+    .item {
+        flex: 1 1 100px; /* Increase basis for larger screens */
+    }
+}
+
+/* Layout for medium screens */
+@media (max-width: 375px) {
+    .container {
+        flex-direction: row; /* Stack items vertically on smaller screens */
+    }
+}
+  }
+
+  .grid-containerD {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding-top: 4%;
+ /* Gap between grid items */
+   
+  }
+  @media (max-width:786px) {
+    
+    .grid-containerD {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      overflow-x:scroll;
+        width: 100%; 
+ 
+  
+    }
+ #arrow1,#arrow2 {
+      display: none; /* Show only the 3rd and 4th photos */
+  }
+
+    #display {
+      display: grid; /* Show only the 3rd and 4th photos */
+  }
+    
+  }
+.backgroundgirls{
+
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.815)),url('../assets/woman1.png'), url('../assets/woman2.png');
+  background-size: cover ,50% 100%, 50% 100%; /* Set size for each image */
+  background-position:center ,left , right ; /* Position each image */
+  background-repeat: no-repeat;
+
+
+}
+.grid-containerup {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Three equal-width columns */
+  grid-gap: 2px; /* Gap between grid items */
+  padding-left: "2%";
+  padding-right: "2%";  
+}

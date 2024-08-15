@@ -4,18 +4,19 @@ const Landing = () => {
   return (
     <div className ="bg-black w-screen">
             <div className="relative mx-auto">
-                <img src='./landing.png' className='w-screen'/>
+                <img src='./womenlanding.png' className='w-screen'/>
     <div className="flex flex-col gap-y-5 absolute inset-0 items-center justify-center">
         <h2 className="text-[#D80000] text-[28px] ">
-          Men's Program
+        Women's program
           </h2>
       <p className='text-white text-[48px] uppercase font-medium'>
-        endurance elite Program
+      Waist Wellness Program
       </p>
 
       <div className='box w-[484px] h-[101px] text-center'>
       <h3 className='text-white font-light'>
-      Boost your stamina and overall functionality with dynamic stamina routines and functional fitness exercises. The program emphasizes recovery optimization, personalized life coaching, and video-guided exercises, complemented by custom nutrition plans and detailed progress tracking.      </h3>
+      Strengthen and define your waistline with core-focused exercises and fat-burning cardio routines. This program includes comprehensive core workouts, flexible meal plans, and personalized coaching, ensuring a balanced approach to achieving a slimmer, more toned waist.
+            </h3>
       </div>
 
       <a href='http://localhost:3000/Contact'>

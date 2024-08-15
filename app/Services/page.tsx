@@ -5,7 +5,8 @@ import Footer from '../Footer/page'
 
 const Services = () => {
   return (
-    <main className='w-screen h-screen bg-black'>
+    <main className='w-screen min-h-screen bg-black '>
+        <div className='flex flex-col'>
       <div className='flex flex-row text-[48px] font-medium uppercase flexCenter '>
          <p className='text-white mt-16'>
           our
@@ -92,7 +93,7 @@ const Services = () => {
       Access to a private support group.        
           </p>
   </div>
-  <a href=''>
+  <a href='http://localhost:3000/Scuplt'>
   <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-12 ml-10 w-[210px] h-[60px] ">
   learn more
   </button>
@@ -176,7 +177,7 @@ const Services = () => {
       Access to a private support group.        
           </p>
   </div>
-  <a href=''>
+  <a href='http://localhost:3000/Glute'>
   <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-12 ml-10 w-[210px] h-[60px] ">
   learn more
   </button>
@@ -261,7 +262,7 @@ const Services = () => {
       Access to a private support group.        
           </p>
   </div>
-  <a href=''>
+  <a href='http://localhost:3000/Waist'>
   <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-12 ml-10 w-[210px] h-[60px] ">
   learn more
   </button>
@@ -271,7 +272,7 @@ const Services = () => {
 
 
 
-    <div className="flex flex-row flexCenter mt-28 gap-x-3">
+<div className="flex flex-row flexCenter mt-28 gap-x-3 ">
 <div className='box text-white bg-[#0C0C0C] w-[307px] h-[480px] flex flex-col '>
   <img src='./strength.png' className='w-[60px] h-[60px] mt-5 ml-10'/>
 
@@ -499,12 +500,21 @@ const Services = () => {
   </button>
   </a>
           </div>
+          
         </div>
-        <div className='invisible mb-40'>
+       
+       
+  <div> 
+    
+  </div>
+    
+    <div className='mt-40'>
+   <Footer />
+   </div>
 
-        </div>
-        <Footer/>
+   </div>
     </main>
+       
   )
 }
 

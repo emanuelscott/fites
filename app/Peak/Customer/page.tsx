@@ -15,7 +15,7 @@ const Customer = () => {
    <div className='flex flex-col flexCenter'>
    <img src='./stars.png' className='mt-4'/>
       <span className='text-balance text-center text-[22px] indent-4'>
-      Emanuel Scott Fitness transformed my body! I never thought I could achieve such amazing results. The booty builder program was a game-changer for me
+      Emanuel Scott Fitness transformed my body! I never thought I could achieve such amazing results. The Glute Maximizer program was a game-changer for me
       </span>
     
       <img src='./profile.png' className='mt-5  w-[31px] h-[31px]' />
@@ -32,7 +32,7 @@ const Customer = () => {
    <img src='./stars.png' className='mt-4'/>
 
       <span className='text-balance text-center text-[22px]'>
-      Emanuel Scott Fitness transformed my body! I never thought I could achieve such amazing results. The booty builder program was a game-changer for me
+      Emanuel Scott Fitness transformed my body! I never thought I could achieve such amazing results. The Glute Maximizer program was a game-changer for me
       </span>  
       
       <img src='./profile2.png' className='mt-5 w-[31px] h-[31px]' />
