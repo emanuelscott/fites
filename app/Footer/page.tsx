@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='p-4 flexBetween w-screen bg-[#0C0C0C]' >
+    <footer className='p-4 flexBetween 2xl:w-screen xl:w-screen sm:w-[800px] 2xl:visible xl:visible sm:invisible bg-[#0C0C0C]' >
             <div className="mx-auto w-screen">
                 
       <div className="grid grid-cols-2 gap-6 px-4 py-6 lg:py-8 md:grid-cols-4 xl:grid-cols-6 ml-20 mt-10">
@@ -65,13 +65,13 @@ const Footer = () => {
                     <a href="http://localhost:3000/" className="hover:underline">home</a>
                 </li>
                 <li className="mb-4">
-                    <a href="http://localhost:3000/About" className="hover:underline">about us</a>
+                    <a href="/About" className="hover:underline">about us</a>
                 </li>
                 <li className="mb-4">
-                    <a href="http://localhost:3000/Services" className="hover:underline">services</a>
+                    <a href="/Services" className="hover:underline">services</a>
                 </li>
                 <li className="mb-4">
-                    <a href="http://localhost:3000/Blog" className="hover:underline">blog</a>
+                    <a href="/Blog" className="hover:underline">blog</a>
                 </li>
             </ul>
         </div>
@@ -82,13 +82,13 @@ const Footer = () => {
             <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white font-oswald">women's program</h2>
             <ul className="text-[#D5D5D5] font-light uppercase font-oswald">
                 <li className="mb-4">
-                    <a href="http://localhost:3000/Scuplt" className="hover:underline">Sculpt & Tone Program</a>
+                    <a href="/Scuplt" className="hover:underline">Sculpt & Tone Program</a>
                 </li>
                 <li className="mb-4">
-                    <a href="http://localhost:3000/Glute" className="hover:underline">Glute Maximizer Program</a>
+                    <a href="/Glute" className="hover:underline">Glute Maximizer Program</a>
                 </li>
                 <li className="mb-4">
-                    <a href="http://localhost:3000/Waist" className="hover:underline">Waist Wellness Program</a>
+                    <a href="/Waist" className="hover:underline">Waist Wellness Program</a>
                 </li>
             </ul>
         </div>
@@ -98,13 +98,13 @@ const Footer = () => {
             <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white font-oswald">men's program</h2>
             <ul className="text-[#D5D5D5] font-light uppercase font-oswald">
                 <li className="mb-4">
-                    <a href="http://localhost:3000/Peak" className="hover:underline">Peak Performance Program</a>
+                    <a href="/Peak" className="hover:underline">Peak Performance Program</a>
                 </li>
                 <li className="mb-4">
-                    <a href="http://localhost:3000/Endurance" className="hover:underline">Endurance Elite Program</a>
+                    <a href="/Endurance" className="hover:underline">Endurance Elite Program</a>
                 </li>
                 <li className="mb-4">
-                    <a href="http://localhost:3000/Cardio" className="hover:underline">Cardio Blitz Program</a>
+                    <a href="/Cardio" className="hover:underline">Cardio Blitz Program</a>
                 </li>
             </ul>
         </div>
@@ -115,7 +115,7 @@ const Footer = () => {
             <h2 className="mb-4 text-sm font-semibold text-gray-900 dark:text-white uppercase font-oswald">links</h2>
             <ul className="text-[#D5D5D5] font-light  uppercase font-oswald">
                 <li className="mb-4">
-                    <a href="http://localhost:3000/Contact" className="hover:underline">contact</a>
+                    <a href="/Contact" className="hover:underline">contact</a>
                 </li>
                 <li className="mb-4">
                     <a href="#" className="hover:underline">privacy policy</a>

@@ -5,7 +5,7 @@ import Footer from '../Footer/page'
 
 const Services = () => {
   return (
-    <main className='w-screen min-h-screen bg-black '>
+    <main className='2xl:w-screen xl:w-screen sm:w-[800px]  min-h-screen bg-black '>
         <div className='flex flex-col'>
       <div className='flex flex-row text-[48px] font-medium uppercase flexCenter '>
          <p className='text-white mt-16'>
@@ -93,8 +93,8 @@ const Services = () => {
       Access to a private support group.        
           </p>
   </div>
-  <a href='http://localhost:3000/Scuplt'>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-12 ml-10 w-[210px] h-[60px] ">
+  <a href='/Scuplt'>
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase 2xl:mt-12 2xl:ml-10 xl:mt-12 xl:ml-10 sm:mt-1 sm:ml-8  w-[210px] h-[60px] ">
   learn more
   </button>
   </a>
@@ -177,8 +177,8 @@ const Services = () => {
       Access to a private support group.        
           </p>
   </div>
-  <a href='http://localhost:3000/Glute'>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-12 ml-10 w-[210px] h-[60px] ">
+  <a href='/Glute'>
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase 2xl:mt-12 2xl:ml-10 xl:mt-12 xl:ml-10 sm:mt-1 sm:ml-8  w-[210px] h-[60px] ">
   learn more
   </button>
   </a>
@@ -262,8 +262,8 @@ const Services = () => {
       Access to a private support group.        
           </p>
   </div>
-  <a href='http://localhost:3000/Waist'>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-12 ml-10 w-[210px] h-[60px] ">
+  <a href='/Waist'>
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase 2xl:mt-12 2xl:ml-10 xl:mt-12 xl:ml-10 sm:mt-1 sm:ml-8  w-[210px] h-[60px] ">
   learn more
   </button>
   </a>
@@ -346,8 +346,8 @@ const Services = () => {
       Access to a private community.
                 </p>
   </div>
-  <a href='http://localhost:3000/Peak'>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-12 ml-10 w-[210px] h-[60px] ">
+  <a href='/Peak'>
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase 2xl:mt-16 2xl:ml-10 xl:mt-16 xl:ml-10 sm:mt-3 sm:ml-8  w-[210px] h-[60px] ">
   learn more
   </button>
   </a>
@@ -420,8 +420,8 @@ const Services = () => {
   </div>
 
  
-  <a href='http://localhost:3000/Endurance'>
-    <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-16 ml-10 w-[210px] h-[60px] ">
+  <a href='/Endurance'>
+    <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase 2xl:mt-16 2xl:ml-10 xl:mt-16 xl:ml-10 sm:mt-6 sm:ml-8  w-[210px] h-[60px] ">
   learn more
   </button>
   </a>
@@ -494,8 +494,8 @@ const Services = () => {
   </div>
 
 
-  <a href='http://localhost:3000/Cardio'>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-14 ml-10 w-[210px] h-[60px] ">
+  <a href='/Cardio'>
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase 2xl:mt-20 2xl:ml-10 xl:mt-20 xl:ml-10 sm:mt-10 sm:ml-8 w-[210px] h-[60px] ">
   learn more
   </button>
   </a>

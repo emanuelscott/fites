@@ -11,13 +11,8 @@ const config: Config = {
     "./node_modules/tw-elements/js/**/*.js",
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        
-      },
-    },
     screens: {
-      'sm': '640px',
+      'sm': '430px',
       // => @media (min-width: 640px) { ... }
 
       'md': '768px',
@@ -31,8 +26,9 @@ const config: Config = {
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
-    }
+ 
   },
+},
    plugins: [require("tw-elements/plugin.cjs")],
   darkMode: "class"
 };

@@ -2,23 +2,23 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className=' bg-white w-screen h-[450px]'> 
+    <div className=' bg-white 2xl:w-screen 2xl:h-[750px] xl:w-screen xl:h-[750px] sm:w-[800px] sm:h-[1200px]'> 
        <div className='text-center flex flex-col items-center'>
         
-        <p className='font-oswald font-medium uppercase text-[38px] text-center mt-10'>
+        <p className='font-oswald font-medium uppercase 2xl:text-[38px] sm:text-[26px] lg:text-[36px] xl:text-[38px] text-center mt-10'>
         Women Unleash Your Potential Within
           </p>
 
 
-        <p className='mt-2 font-oswald font-light text-[18px]'>
+        <p className='mt-2 font-oswald font-light 2xl:text-[18px] xl:text-[18px] lg:text-[16px] sm:text-[12px]'>
         At Emanuel Scott Fitness, we understand that women have unique fitness goals. Our specialized programs are designed                  </p>
-          <p className='font-oswald font-light text-[18px]'>
+          <p className='font-oswald font-light 2xl:text-[18px] xl:text-[18px] lg:text-[16px] sm:text-[13px]'>
           to help you grow your Glutes and tighten your waist, enhancing your natural curves and boosting your confidence.                  </p>
 
 
 
 </div>
-<div className="flex flex-row flexCenter mt-8 gap-x-3">
+<div className="flex flex-row flexCenter mt-8 gap-x-3 flex-wrap gap-y-10">
 <div className='box bg-[#F4F4F4] w-[307px] h-[480px] flex flex-col'>
   <img src='./tone.png' className='w-[46.12px] h-[60px] mt-5 ml-10'/>
 
