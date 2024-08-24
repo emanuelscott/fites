@@ -12,7 +12,7 @@ const config: Config = {
   ],
   theme: {
     screens: {
-      'sm': '430px',
+      'sm': '390px',
       // => @media (min-width: 640px) { ... }
 
       'md': '768px',
