@@ -1,12 +1,14 @@
-"use client";
+import React from 'react'
 
+export default function Carousel ({ children: slides }) {
+  return(
+    <div className='overflow-hidden relative'>
+      <div className='flex'>
+      {slides}
+      </div>
+      <button>
 
-const Carousel = () => {
-  return (
-    <div>
-      
+      </button>
     </div>
-);
+  )
 }
-
-export default Carousel
