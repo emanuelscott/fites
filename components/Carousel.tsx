@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function Carousel ({ children: slides }) {
+export default function Carousel () {
   return(
     <div className='overflow-hidden relative'>
       <div className='flex'>
-      {slides}
+     
       </div>
       <button>
 
