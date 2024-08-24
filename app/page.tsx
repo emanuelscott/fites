@@ -54,7 +54,7 @@ export default function Home() {
             Do you struggle with organization and 
               </span>
             <p className="text-white ml-1 font-medium">
-            feel overwhelmed by daily responsibilitie         
+            feel overwhelmed by daily responsibilities         
              </p>
              </div>
 

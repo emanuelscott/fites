@@ -7,6 +7,8 @@ const config: Config = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{html,js}",
+    "./node_modules/tw-elements/js/**/*.js",
   ],
   theme: {
     extend: {
@@ -31,6 +33,7 @@ const config: Config = {
       // => @media (min-width: 1536px) { ... }
     }
   },
-  plugins: [],
+   plugins: [require("tw-elements/plugin.cjs")],
+  darkMode: "class"
 };
 export default config;
