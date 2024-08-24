@@ -28,7 +28,7 @@ const Navbar = () => {
   </div>
   <div className= 'items-center justify-between w-full md:flex md:w-auto md:order-1' id="navbar-cta">
         
-    <ul className="flex flex-row flexBetween font-oswald p-4 md:p-0 mt-4 border xl:space-x-20 md:space-x-10 sm:space-x-1 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
+    <ul className="flex flex-row flexCenter gap-y-2 font-oswald p-4 md:p-0 mt-4 xl:space-x-20 md:space-x-10 sm:space-x-1 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
       <li>
         <a href="https://esfitness.io/" className="block py-2 px-3 md:p-0  text-white text-[18px] rounded bg-transparent hover:text-[#BF0A0A]" aria-current="page">HOME</a>
       </li>
