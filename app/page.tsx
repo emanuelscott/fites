@@ -15,19 +15,19 @@ export default function Home() {
     <div className="flex flex-col">
     <div className="flex flex-row flexCenter">
     <div className="flex flex-col 2xl:ml-36 sm:ml-0 md:ml-10 lg:ml-20 xl:ml-28">
-    <span className="font-regular font-oswald text-[#D80000] 2xl:text-[28px] sm:text-[10px] md:text-[16px] lg:text-[28px] xl:text-[28px] mt-30">
+    <span className="font-regular font-oswald text-[#D80000] 2xl:text-[28px] sm:text-[14px] md:text-[16px] lg:text-[28px] xl:text-[28px] mt-30">
       UNLOCK YOUR POTENTIAL WITH 
       </span>
    
-    <p className="font-semibold font-oswald bg-gradient-to-r from-[#FFFFFF] to-[#999999] inline-block text-transparent bg-clip-text 2xl:text-[78px] sm:text-[14px] md:text-[48px] lg:text-[64px]">
+    <p className="font-semibold font-oswald bg-gradient-to-r from-[#FFFFFF] to-[#999999] inline-block text-transparent bg-clip-text 2xl:text-[78px] sm:text-[24px] md:text-[48px] lg:text-[64px]">
       EMANUEL SCOTT
       </p>
-      <p className="font-semibold font-oswald bg-gradient-to-r from-[#FFFFFF] to-[#999999] inline-block text-transparent bg-clip-text 2xl:text-[78px] sm:text-[14px] md:text-[48px] lg:text-[64px]">
+      <p className="font-semibold font-oswald bg-gradient-to-r from-[#FFFFFF] to-[#999999] inline-block text-transparent bg-clip-text 2xl:text-[78px] sm:text-[24px] md:text-[48px] lg:text-[64px]">
       FITNESS & COACH
       </p>
 
-   <div className="border border-black bg-black  h-[132px] sm:w-[150px] sm:h-[150px] md:w-[500px] xl:w-[600px] 2xl:w-[700px]  "> 
-    <article className="text-balance text-[#ECECEC] text-[16px] sm:text-[8px] md:text-[12px] lg:text-[16px] xl:text-[16px] font-oswald font-extralight">
+   <div className="border border-black bg-black  h-[132px] sm:w-[250px] sm:h-[150px] md:w-[500px] xl:w-[600px] 2xl:w-[700px]  "> 
+    <article className="text-balance text-[#ECECEC] text-[16px] sm:text-[12px] md:text-[12px] lg:text-[16px] xl:text-[16px] font-oswald font-extralight">
       <p>
         At Emanuel Scott Fitness, we believe that greatness lies within each of us. Our mission is to empower you to discover your inner strength and achieve the extraordinary. We embrace the whole person concept, recognizing that true fitness begins with the physical and transcends to encompass spiritual, mental, emotional, social, and financial well-being. By guiding you into your destiny and serving your higher purpose, we support you through every step of your transformative journey.
         </p>
@@ -35,7 +35,7 @@ export default function Home() {
     </div>
 
     <a href="#">
-    <button type="button" className="font-oswald text-white bg-[#BF0A0A] font-medium 2xl:text-[16px] xl:text-[16px] sm:text-[8px] px-4 py-2 text-center mr-20  2xl:w-[200px] 2xl:h-[60px] xl:w-[200px] xl:h-[60px] sm:w-[100px] sm:h-[30px]">LET'S START NOW</button>
+    <button type="button" className="font-oswald text-white bg-[#BF0A0A] font-medium 2xl:text-[16px] xl:text-[16px] sm:text-[8px] px-4 py-2 text-center mr-20 mt-2 2xl:w-[200px] 2xl:h-[60px] xl:w-[200px] xl:h-[60px] sm:w-[100px] sm:h-[30px]">LET'S START NOW</button>
     </a>
 
     </div>
@@ -131,7 +131,7 @@ export default function Home() {
              </p>
              </div>
              
-             <img src="./landingline.png" className="2xl:w-screen h-[81px] sm:w-[800px] mt-2"/>
+             <img src="./landingline.png" className="2xl:w-screen h-[81px] xl:w-screen  sm:w-[800px] mt-2"/>
 
       </div>
       

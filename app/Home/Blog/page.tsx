@@ -5,7 +5,7 @@ const Blog = () => {
    
     
   return (
-   <main className='bg-black 2xl:w-screen 2xl:h-[840px] xl:w-screen xl:h-[840px] sm:w-[800px] sm:h-[1800px] mt-48'>
+   <main className='bg-black 2xl:w-screen 2xl:h-[840px] xl:w-screen xl:h-[840px] sm:w-[800px] sm:h-[800px] mt-48'>
         <img src='./line4.png' className='2xl:w-screen '/>
 
     <div className='flex flex-col mt-8'>
@@ -13,7 +13,7 @@ const Blog = () => {
             blog
         </span>
         
-        <div className='flex flex-row flexBetween mt-10 flex-wrap sm:ml-5 sm:flexCenter'>
+        <div className='flex flex-row flexBetween mt-10 sm:overflow-scroll sm:ml-5 sm:flexCenter'>
 
             <div className='flex flex-col 2xl:ml-20 sm:ml-5 mb-10'>
                 <img src='./es.png'  />
@@ -35,8 +35,8 @@ const Blog = () => {
                 </div>            
             </div>
 
-            <div className='flex flex-col sm:ml-8 mb-10'>
-                <img src='./es2.png'  />
+            <div className='flex flex-col sm:ml-6 mb-10'>
+                <img src='./es2.png' className='2xl:w-[]' />
                 <img src='./fitness.png ' className='w-[74px] h-[30px] mt-4'/>
                 <div className='box w-[364px] h-[58px]'>
                 <span className='text-white uppercase text-[24px]'>
