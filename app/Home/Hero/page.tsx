@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className=' bg-white 2xl:w-screen 2xl:h-[750px] xl:w-screen xl:h-[750px] sm:w-[800px] sm:h-[1200px]'> 
+    <div className=' bg-white 2xl:w-screen 2xl:h-[750px] xl:w-screen xl:h-[750px] sm:w-[800px] sm:h-[700px]'> 
        <div className='text-center flex flex-col items-center'>
         
         <p className='font-oswald font-medium uppercase 2xl:text-[38px] sm:text-[26px] lg:text-[36px] xl:text-[38px] text-center mt-10'>
@@ -18,7 +18,7 @@ const Hero = () => {
 
 
 </div>
-<div className="flex flex-row flexCenter mt-8 gap-x-3 flex-wrap gap-y-10">
+<div className="flex flex-row flexCenter mt-8 gap-x-3 gap-y-10">
 <div className='box bg-[#F4F4F4] w-[307px] h-[480px] flex flex-col'>
   <img src='./tone.png' className='w-[46.12px] h-[60px] mt-5 ml-10'/>
 
@@ -95,13 +95,13 @@ const Hero = () => {
       Access to a private support group.        
           </p>
   </div>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-12 ml-10 w-[210px] h-[60px] ">
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase 2xl:mt-12 xl:mt-12 sm:mt-2 2xl:ml-10 xl:ml-10 sm:ml-8 w-[210px] h-[60px]">
   Secure Your Spot Now
   </button>
 </div>
 
 
-<div className='box bg-[#F4F4F4] w-[307px] h-[480px] flex flex-col'>
+<div className='box bg-[#F4F4F4] w-[307px] h-[480px] flex flex-col '>
   <img src='./glute.png' className='w-[60px] h-[60px] mt-5 ml-10'/>
 
   <span className='uppercase text-[18px] mt-4 ml-10'>
@@ -177,7 +177,7 @@ const Hero = () => {
       Access to a private support group.        
           </p>
   </div>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-12 ml-10 w-[210px] h-[60px] ">
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase 2xl:mt-12 xl:mt-12 sm:mt-2 2xl:ml-10 xl:ml-10 sm:ml-6 w-[210px] h-[60px] ">
   Secure Your Spot Now
   </button>
 
@@ -260,7 +260,7 @@ const Hero = () => {
       Access to a private support group.        
           </p>
   </div>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-12 ml-10 w-[210px] h-[60px] ">
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase 2xl:mt-12 xl:mt-12 sm:mt-2 2xl:ml-10 xl:ml-10 sm:ml-6 w-[210px] h-[60px] ">
   Secure Your Spot Now
   </button>
 

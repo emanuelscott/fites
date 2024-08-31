@@ -5,16 +5,16 @@ import React from 'react'
 const Rating = () => {
 
   return (
-    <main className='bg-white 2xl:w-screen 2xl:h-[350px] xl:h-[350px] sm:w-[800px] sm:h-[250px]'>
+    <main className='bg-white 2xl:w-screen 2xl:h-[350px] xl:w-screen xl:h-[350px] sm:w-[800px] sm:h-[200px]'>
     <div className='flex flex-col'>
-    <div className='text-[#D80000] 2xl:text-[38px] sm:text-[16px] md:text-[16px] lg:text-[30px] xl:text-[38px] font-medium font-oswald text-center uppercase mt-20'>
+    <div className='text-[#D80000] 2xl:text-[38px] sm:text-[22px] md:text-[24px] lg:text-[30px] xl:text-[38px] font-medium font-oswald text-center uppercase mt-20'>
     What do they say about Emanuel Scott Fitness ?
       </div>
       <div className='flex flex-row flexCenter gap-5 justify-center items-center mt-14'>
    <img src='./previous.png' className='2xl:w-[47px] xl:w-[47px] 2xl:h-[47px] xl:h-[47px] sm:w-[30px] sm:h-[30px]'/>
 
 
-   <div className='box 2xl:w-[514px] xl:w-[513px] 2xl:h-[284px] xl:h-[284px] bg-[#F6F6F6] sm:w-[200px] sm:h-[150px] '>
+   <div className='box 2xl:w-[514px] xl:w-[513px] 2xl:h-[284px] xl:h-[284px] bg-[#F6F6F6] sm:w-[250px] sm:h-[150px] '>
    <div className='flex flex-col flexCenter'>
    <img src='./stars.png' className='2xl:mt-4 2xl:w-[120px] 2xl:h-[60px] xl:w-[120px] xl:h-[60px] sm:w-[40px] sm:h-[30px]'/>
       <span className='text-balance text-center 2xl:text-[22px] xl:text-[22px] sm:text-[12px] indent-4'>
@@ -31,7 +31,7 @@ const Rating = () => {
 
  
    
-   <div className='box 2xl:w-[514px] 2xl:h-[284px] xl:w-[513px] xl:h-[284px] bg-[#F6F6F6] sm:w-[200px] sm:h-[150px] '>
+   <div className='box 2xl:w-[514px] 2xl:h-[284px] xl:w-[513px] xl:h-[284px] bg-[#F6F6F6] sm:w-[250px] sm:h-[150px] '>
    <div className='flex flex-col flexCenter'>
    <img src='./stars.png' className='2xl:mt-4  2xl:w-[120px] 2xl:h-[60px] xl:w-[120px] xl:h-[60px] sm:w-[40px] sm:h-[30px]'/>
       <span className='text-balance text-center 2xl:text-[22px] xl:text-[22px] sm:text-[12px] indent-4'>
