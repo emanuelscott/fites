@@ -5,15 +5,15 @@ const Blog = () => {
    
     
   return (
-   <main className='bg-black 2xl:w-screen 2xl:h-[840px] xl:w-screen xl:h-[840px] sm:w-[800px] sm:h-[800px] mt-48'>
+   <main className='bg-black 2xl:w-screen 2xl:h-[840px] xl:w-screen xl:h-[840px] sm:w-[800px] sm:h-[1800px] mt-48'>
         <img src='./line4.png' className='2xl:w-screen '/>
 
     <div className='flex flex-col mt-8'>
-        <span className='text-white uppercase font-bold text-center text-[38px]'>
+        <span className='text-white uppercase font-bold text-center text-[38px] sm:ml-6'>
             blog
         </span>
         
-        <div className='flex flex-row flexBetween mt-10 sm:overflow-scroll sm:ml-5 sm:flexCenter'>
+        <div className='flex flex-row flexBetween mt-10 sm:flex-wrap sm:ml-5 sm:flexCenter'>
 
             <div className='flex flex-col 2xl:ml-20 sm:ml-5 mb-10'>
                 <img src='./es.png'  />
@@ -74,6 +74,15 @@ const Blog = () => {
 
 
           
+        </div>
+
+        <div className='flexCenter'>
+        <a href='/Blog'>
+    <button type="button" className="font-oswald text-white bg-[#BF0A0A] 2xl:text-[16px] xl:text-[16px] sm:text-[16px] px-4 py-2 text-center uppercase 2xl:mt-5 xl:mt-5 w-[210px] h-[60px] 
+    sm:ml-6">
+        explore all blogs
+  </button>
+    </a>
         </div>
     </div>
    </main>

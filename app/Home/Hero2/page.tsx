@@ -24,62 +24,48 @@ const HeroContinue = () => {
   <img src='./bicep.png' className='w-[46.12px] h-[60px] mt-5 ml-10'/>
 
   <span className='uppercase text-[18px] mt-4 ml-10'>
-  Sculpt & Tone Program
+  Peak Performance Program
   </span>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10 mt-5 w-[4.54px] h-[10.08px]'/>
       <p className='text-[18px] font-light ml-2 mt-5'>
-      Achieve a lean and toned physique.
+      Unlock your full potential with strength and mental toughness
       </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className='text-[18px] font-light ml-2'>
-      High-energy workouts.
+      Strength and muscle growth routines.
       </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className='text-[18px] font-light ml-2'>
-      Strength training.
+      Mental toughness techniques
       </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className='text-[18px] font-light ml-2'>
-      Flexibility exercises.
+      Personalized life coaching
       </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className='text-[18px] font-light ml-2'>
-      Personalized life coaching.          
+      12-week structured workout plan.          
           </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className='text-[18px] font-light ml-2'>
-      Custom meal plans.          
-          </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='text-[18px] font-light ml-2'>
-      Progress tracking.         
-          </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='text-[18px] font-light ml-2'>
-      Weekly live check-ins.         
+      Weekly live check-ins          
           </p>
   </div>
 
@@ -96,7 +82,7 @@ const HeroContinue = () => {
       Access to a private support group.        
           </p>
   </div>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase 2xl:mt-12 xl:mt-12 sm:mt-2 2xl:ml-10 xl:ml-10 sm:ml-8 w-[210px] h-[60px] ">
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase 2xl:mt-12 xl:mt-12 sm:mt-8 2xl:ml-10 xl:ml-10 sm:ml-8 w-[210px] h-[60px] ">
   Secure Your Spot Now
   </button>
 </div>
@@ -105,35 +91,35 @@ const HeroContinue = () => {
 <div className='box text-white bg-[#0C0C0C] w-[307px] h-[480px] flex flex-col'>
   <img src='./flex.png' className='w-[60px] h-[60px] mt-5 ml-10'/>
 
-  <span className='uppercase text-[18px] mt-4 ml-10'>
-  Glute Maximizer Program          
+  <span className='uppercase text-[18px] mt-3 ml-10'>
+  Endurance Elite Program         
   </span>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10 mt-5 w-[4.54px] h-[10.08px]'/>
       <p className='text-[18px] font-light ml-2 mt-5'>
-      Achieve a lean and toned physique.
+      Boost stamina and overall functionality
       </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className='text-[18px] font-light ml-2'>
-      High-energy workouts.
+      Dynamic stamina routines.
       </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className='text-[18px] font-light ml-2'>
-      Strength training.
+      Functional fitness exercises.
       </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className='text-[18px] font-light ml-2'>
-      Flexibility exercises.
+      Recovery optimization
       </p>
   </div>
 
@@ -147,7 +133,7 @@ const HeroContinue = () => {
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className='text-[18px] font-light ml-2'>
-      Custom meal plans.          
+      Video-guided exercises.         
           </p>
   </div>
 
@@ -161,24 +147,19 @@ const HeroContinue = () => {
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className='text-[18px] font-light ml-2'>
-      Weekly live check-ins.         
+      Custom nutrition plans.        
           </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className='text-[18px] font-light ml-2'>
-      24/7 support via app.         
+      Progress tracking.         
           </p>
   </div>
 
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='text-[18px] font-light ml-2'>
-      Access to a private support group.        
-          </p>
-  </div>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase  2xl:mt-12 xl:mt-12 sm:mt-2 2xl:ml-10 xl:ml-10 sm:ml-6 w-[210px] h-[60px] ">
+
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase  2xl:mt-12 xl:mt-12 sm:mt-14 2xl:ml-10 xl:ml-10 sm:ml-6 w-[210px] h-[60px] ">
   Secure Your Spot Now
   </button>
 
@@ -186,37 +167,37 @@ const HeroContinue = () => {
 
 
 <div className='box text-white bg-[#0C0C0C] w-[307px] h-[480px] flex flex-col'>
-  <img src='./heart.png' className='w-[60px] h-[60px] mt-3 ml-10'/>
+  <img src='./heart.png' className='w-[60px] h-[54px] mt-3 ml-10'/>
 
   <span className='uppercase text-[18px] mt-4 ml-10'>
-  Waist Wellness Program          
+  Cardio Blitz Program          
   </span>
 
   <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10 mt-5 w-[4.54px] h-[10.08px]'/>
+      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className='text-[18px] font-light ml-2 mt-5'>
-      Achieve a lean and toned physique.
+      Ignite your cardiovascular health and burn fat
       </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className='text-[18px] font-light ml-2'>
-      High-energy workouts.
+      Intense cardio workouts.
       </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className='text-[18px] font-light ml-2'>
-      Strength training.
+      Metabolic conditioning
       </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className='text-[18px] font-light ml-2'>
-      Flexibility exercises.
+      Expert nutrition advice.
       </p>
   </div>
 
@@ -230,21 +211,14 @@ const HeroContinue = () => {
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className='text-[18px] font-light ml-2'>
-      Custom meal plans.          
+      High-energy cardio sessions.        
           </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className='text-[18px] font-light ml-2'>
-      Progress tracking.         
-          </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='text-[18px] font-light ml-2'>
-      Weekly live check-ins.         
+      Weekly check-ins.        
           </p>
   </div>
 
@@ -255,13 +229,8 @@ const HeroContinue = () => {
           </p>
   </div>
 
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='text-[18px] font-light ml-2'>
-      Access to a private support group.        
-          </p>
-  </div>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase 2xl:mt-12 xl:mt-12 sm:mt-2 2xl:ml-10 xl:ml-10 sm:ml-6 w-[210px] h-[60px] ">
+  
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase 2xl:mt-12 xl:mt-12 sm:mt-20 2xl:ml-10 xl:ml-10 sm:ml-6 w-[210px] h-[60px] ">
   Secure Your Spot Now
   </button>
 

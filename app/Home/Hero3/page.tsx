@@ -8,7 +8,7 @@ const Hero3 = () => {
     <div className='flex flex-col'>
 <div className='flex flex-row flexCenter'>
   <img src='./esgradient.png' className='2xl:visible xl:visible sm:invisible'/>
-<div className='flex flex-col text-center items-center ml-10 sm:mb-28 2xl:mb-40 xl:mb-40 box w-[443px] h-[567px]'>
+<div className='flex flex-col text-center items-center 2xl:ml-10 xl:ml-10 sm:ml-24 sm:mb-28 2xl:mb-40 xl:mb-40 box w-[443px] h-[567px]'>
 <p className="font-semibold font-oswald text-[#D80000] 2xl:text-[38px] xl:text-[38px] sm:text-[24px] uppercase">
 Commitment to Excellence
 </p>
@@ -40,15 +40,17 @@ essential not only for themselves but also for those who depend on them
     </span>
 </div>
 
-<div className='box w-[387px] h-[84px] font-medium text-[#D80000] 2xl:text-[26px] 2xl:mt-8 xl:text-[26px] xl:mt-8 sm:text-[16px]  uppercase'>
+<div className='box w-[387px] h-[84px] font-medium text-[#D80000] 2xl:text-[26px] 2xl:mt-8 xl:text-[26px] xl:mt-8 sm:text-[20px]  uppercase'>
     <span>
     If not now, then when? Your best self is waiting to shine.
     </span>
 </div>
+
+<a href='/Contact'>
 <button type="button" className="font-oswald text-white bg-[#BF0A0A] 2xl:text-[16px] xl:text-[16px] sm:text-[16px] px-4 py-2 text-center uppercase 2xl:mt-5 xl:mt-5 w-[210px] h-[60px] ">
 Limited Spots Available
   </button>
-
+</a>
 
 </div>
 
