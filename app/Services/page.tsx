@@ -6,7 +6,7 @@ import Footer from '../Footer/page'
 
 const Services = () => {
   return (
-    <main className='2xl:w-screen xl:w-screen sm:w-[800px] h-screen bg-black '>
+    <main className='2xl:w-screen xl:w-screen lg:w-screen md:w-screen sm:w-[800px] h-screen bg-black '>
         <div className='flex flex-col bg-black'>
       <div className='flex flex-row 2xl:text-[48px] xl:text-[48px] sm:text-[30px] font-medium uppercase flexCenter '>
          <p className='text-white mt-16'>

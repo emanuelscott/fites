@@ -131,7 +131,7 @@ export default function Home() {
              </p>
              </div>
              
-             <img src="./landingline.png" className="2xl:w-screen h-[81px] xl:w-screen  sm:w-[800px] mt-2"/>
+             <img src="./landingline.png" className="2xl:w-screen h-[81px] xl:w-screen sm:w-[800px] "/>
 
       </div>
       
