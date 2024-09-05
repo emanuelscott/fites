@@ -1,100 +1,172 @@
 import React from 'react';
-import Image from 'next/image';
-import image1 from '../../public/image1.jpg';
-import image2 from '../../public/image2.jpg';
-import image3 from '../../public/image3.jpg';
-import authorImage from '../../public/author.jpg'; 
-import './page.css';
-import Footer from '../Footer/page';
+
 
 const Blog = () => {
-  const posts = [
-    {
-      title: 'Top 5 Cardio Workouts to Boost Stamina and Burn Fat',
-      date: 'July 18, 2024',
-      image: image1, 
-      category: 'Fitness',
-      author: 'Emanuel Scott',
-    },
-    {
-      title: 'Strength Training for Beginners: Your First Steps to an Ideal Body',
-      date: 'July 18, 2024',
-      image: image2, 
-      category: 'Fitness',
-      author: 'Emanuel Scott',
-    },
-    {
-      title: 'How to Effectively Combine Yoga and Fitness for Optimal Results',
-      date: 'July 18, 2024',
-      image: image3,
-      category: 'Fitness',
-      author: 'Emanuel Scott',
-    },
-    {
-      title: 'Top 5 Cardio Workouts to Boost Stamina and Burn Fat',
-      date: 'July 18, 2024',
-      image: image1, 
-      category: 'Fitness',
-      author: 'Emanuel Scott',
-    },
-    {
-      title: 'Strength Training for Beginners: Your First Steps to an Ideal Body',
-      date: 'July 18, 2024',
-      image: image2, 
-      category: 'Fitness',
-      author: 'Emanuel Scott',
-    },
-    {
-      title: 'How to Effectively Combine Yoga and Fitness for Optimal Results',
-      date: 'July 18, 2024',
-      image: image3, 
-      category: 'Fitness',
-      author: 'Emanuel Scott',
-    },
-  ];
+  return(
+    <main className='bg-black 2xl:w-screen 2xl:h-screen xl:w-screen xl:h-screen lg:w-screen lg:h-screen md:w-screen md:h-screen sm:w-[800px] sm:h-[2000px]'>
+          <div className='flex flex-col text-white text-center uppercase 2xl:text-[48px] xl:text-[48px] sm:text-[28px] font-medium'>
+              <h1 className='mt-20 sm:ml-5'>blog</h1>
 
-  return (
-    <main>
-    <div className="blog">
-      <header className="blog-header">
-        <h1>BLOG</h1>
-        <div className="blog-categories">
-          <button className="active">Fitness</button>
-          <button>Strength Training</button>
-          <button>Nutrition and Diet</button>
-          <button>Home Workouts</button>
-        </div>
-      </header>
-      <div className="blog-posts">
-        {posts.map((post, index) => (
-          <div className="blog-post" key={index}>
-            <div className="image-container">
-              <Image src={post.image} alt={post.title} layout="fill" objectFit="cover" className="post-image" />
-            </div>
-            <div className="blog-post-info">
-              <div className="blog-post-category">{post.category}</div>
-              <h2>{post.title}</h2>
-              <div className="blog-post-meta">
-                <div className="author-meta">
-                  <div className="author-image">
-                    <Image src={authorImage} alt={post.author} width={40} height={40} />
-                  </div>
-                  <p>{post.author}</p>
-                </div>
-                <p>{post.date}</p>
+
+              <div className='flex flex-row flexCenter gap-x-2 2xl:visible xl:visible lg:visible md:invisible sm:invisible'>
+              <a href="#">
+          <button type="button" className="font-oswald text-white uppercase bg-[#BF0A0A] font-medium 2xl:text-[16px] xl:text-[16px]  px-4 py-2 text-center  mt-2 2xl:w-[111px] 2xl:h-[45px] xl:w-[111px] xl:h-[45px] ">fitnesss</button>
+              </a>
+              <a href="#">
+          <button type="button" className="font-oswald text-white uppercase bg-[#1E1E1E] hover:bg-[#BF0A0A] font-medium 2xl:text-[16px] xl:text-[16px]  text-center mt-2 2xl:w-[150px] 2xl:h-[45px] xl:w-[150px] xl:h-[45px] ">strength training</button>
+              </a>
+              <a href="#">
+          <button type="button" className="font-oswald text-white uppercase bg-[#1E1E1E] hover:bg-[#BF0A0A] font-medium 2xl:text-[16px] xl:text-[16px] text-center mt-2 2xl:w-[150px] 2xl:h-[45px] xl:w-[150px] xl:h-[45px] ">nuttrition and diet</button>
+              </a>
+              <a href="#">
+          <button type="button" className="font-oswald text-white uppercase bg-[#1E1E1E] hover:bg-[#BF0A0A] font-medium 2xl:text-[16px] xl:text-[16px]  px-4 py-2 text-center mt-2 2xl:w-[150px] 2xl:h-[45px] xl:w-[150px] xl:h-[45px] ">home workouts</button>
+              </a>
               </div>
+
+
+
+              <div className='flex flex-row flexBetween mt-10 sm:flex-wrap sm:flexCenter sm:ml-1 sm:gap-y-10'>
+
+            <div className='box w-[380px] h-[462px] flex flex-col sm:ml-5'>
+                <img src='./es.png'  />
+                <img src='./fitness.png ' className='w-[74px] h-[30px] mt-4'/>
+                
+                  <span className='text-white text-[20px] text-left mt-1'>
+                  Top 5 Cardio Workouts to Boost Stamina and Burn Fat
+                  </span>
+             
+             
+
+                <div className='flex flex-row mt-6'>
+                <img src='./emmanuel.png' className='w-[25px] h-[25px] '/>
+                <p className='text-[#CCCCCC] text-[14px] ml-2'>
+                    Emanuel Scott
+                    </p>
+
+             <p className='text-[#CCCCCC] text-[14px] ml-48'>
+                    July 18. 2024
+                </p>
+                </div>            
+            </div>
+
+            <div className='box w-[380px] h-[462px] flex flex-col sm:ml-5'>
+                <img src='./es2.png' />
+                <img src='./fitness.png ' className='w-[74px] h-[30px] mt-4'/>
+                
+                <span className='text-white text-[20px] text-left mt-1'>
+                Strength Training for Beginners: Your First Steps to an Ideal Body               
+                 </span>
+               
+                <div className='flex flex-row mt-6'>
+                <img src='./emmanuel.png' className='w-[25px] h-[25px] '/>
+                <p className='text-[#CCCCCC] text-[14px] ml-2'>
+                    Emanuel Scott
+                </p>
+                <p className='text-[#CCCCCC] text-[14px] ml-48'>
+                    July 18. 2024
+                </p>
+                </div>            
+            </div>
+
+            <div className='box w-[380px] h-[462px] flex flex-col sm:ml-5'>
+                <img src='./es3.png'  />
+                <img src='./fitness.png ' className='w-[74px] h-[30px] mt-4'/>
+                
+                <span className='text-white text-[20px] text-left mt-1'>
+                Strength Training for Beginners: Your First Steps to an Ideal Body               
+                 </span>
+                    
+                <div className='flex flex-row mt-6'
+                
+                
+                >
+                <img src='./emmanuel.png' className='w-[25px] h-[25px] '/>
+                <p className='text-[#CCCCCC] text-[14px] ml-2'>
+                    Emanuel Scott
+                </p>
+                <p className='text-[#CCCCCC] text-[14px] ml-48'>
+                    July 18. 2024
+                </p>
+                </div>            
             </div>
           </div>
-        ))}
-      </div>
-      <div className='invisible mt-14'>
 
+          <a href="#">
+          <button type="button" className="font-oswald text-white uppercase bg-[#BF0A0A] font-medium text-[16px] px-4 py-2 text-center mt-20 w-[184px] h-[50px] 
+          2xl:invisible xl:invisible lg:invisible sm:visible ">
+            Explore all blogs
+            </button>
+              </a>
+
+          <div className='flex flex-row flexBetween mt-10 sm:flex-wrap sm:flexCenter 2xl:visible xl:visible lg:visible sm:invisible'>
+
+<div className='box w-[380px] h-[462px] flex flex-col sm:ml-5'>
+    <img src='./es.png'  />
+    <img src='./fitness.png ' className='w-[74px] h-[30px] mt-4'/>
+    
+      <span className='text-white text-[20px] text-left mt-1'>
+      Top 5 Cardio Workouts to Boost Stamina and Burn Fat
+      </span>
+ 
+ 
+
+    <div className='flex flex-row mt-6'>
+    <img src='./emmanuel.png' className='w-[25px] h-[25px] '/>
+    <p className='text-[#CCCCCC] text-[14px] ml-2'>
+        Emanuel Scott
+        </p>
+
+ <p className='text-[#CCCCCC] text-[14px] ml-48'>
+        July 18. 2024
+    </p>
+    </div>            
 </div>
-    </div>
+
+<div className='box w-[380px] h-[462px] flex flex-col sm:ml-5'>
+    <img src='./es2.png' />
+    <img src='./fitness.png ' className='w-[74px] h-[30px] mt-4'/>
+    
+    <span className='text-white text-[20px] text-left mt-1'>
+    Strength Training for Beginners: Your First Steps to an Ideal Body               
+     </span>
    
-    <Footer/>
+    <div className='flex flex-row mt-6'>
+    <img src='./emmanuel.png' className='w-[25px] h-[25px] '/>
+    <p className='text-[#CCCCCC] text-[14px] ml-2'>
+        Emanuel Scott
+    </p>
+    <p className='text-[#CCCCCC] text-[14px] ml-48'>
+        July 18. 2024
+    </p>
+    </div>            
+</div>
+
+<div className='box w-[380px] h-[462px] flex flex-col sm:ml-5'>
+    <img src='./es3.png'  />
+    <img src='./fitness.png ' className='w-[74px] h-[30px] mt-4'/>
+    
+    <span className='text-white text-[20px] text-left mt-1'>
+    Strength Training for Beginners: Your First Steps to an Ideal Body               
+     </span>
+        
+    <div className='flex flex-row mt-6'
+    
+    
+    >
+    <img src='./emmanuel.png' className='w-[25px] h-[25px] '/>
+    <p className='text-[#CCCCCC] text-[14px] ml-2'>
+        Emanuel Scott
+    </p>
+    <p className='text-[#CCCCCC] text-[14px] ml-48'>
+        July 18. 2024
+    </p>
+    </div>            
+</div>
+</div>
+          </div>
+         
     </main>
-  );
+  )
 };
 
 export default Blog;

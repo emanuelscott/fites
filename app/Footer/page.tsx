@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
         
                 <div className='box w-[30px] h-[25px] border-[#222222] bg-[#222222] border hover:bg-[#D80000]'>
-                <a href="javascript:;"
+                <a href="#"
       className="p-1.5 flex items-center borderjustify-center transition-all duration-500 hover:text-white">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 72 72"
       fill="none">
