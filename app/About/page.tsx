@@ -1,10 +1,13 @@
 'use client'
 
 import React from 'react'
+import Commit from './Commitment/page'
+import Rating from './Rating/page'
+import Blog from "./Blog/page";
 
 const About = () => {
   return (
-    <main className='bg-black 2xl:w-screen min-h-screen xl:w-screen  lg:w-screen lmd:w-screen sm:w-[800px] sm:h-[2500px]'>
+    <main className='bg-black 2xl:w-screen min-h-screen xl:w-screen lg:w-screen lmd:w-screen sm:w-[800px] '>
            
            
     <div className='flex flex-col flexCenter'>
@@ -95,12 +98,31 @@ const About = () => {
             <img src='/about2.png' className='2xl:visible xl:visible lg:visible sm:invisible '/>
         </div>
 
-      
-
+    
         
         </div>
+        
+        <h1 className='font-medium 2xl:text-[38px] sm:text-[28px] text-white 2xl:mt-40 xl:mt-40 lg:mt-24 text-center uppercase'>Best version of my journey</h1>
 
-       
+       <img src='./journey.png' className='mt-10 2xl:w-screen xl:w-screen lg:w-screen'/>
+
+       <div className='flex flex-row flexCenter mt-24 sm:mt-20'>
+        <p className='text-white 2xl:text-[38px] sm:text-[28px] md:text-[28px] lg:text-[30px] xl:text-[38px] font-medium uppercase '>
+        Reprogram for
+        </p>
+    <p className='text-[#D80000] 2xl:text-[38px] sm:text-[28px] md:text-[28px] lg:text-[30px] xl:text-[38px] font-medium uppercase ml-2'>
+        Success
+        </p>
+    </div>
+
+    <div className='flex flex-row flexCenter gap-x-4 mt-4 flex-wrap gap-y-5'>
+    <div className='bg-[#0C0C0C] box w-[277px] h-[99px] flex flex-row items-center'>
+        <img src='./flex.png' className='w-[66px] h-[56px] ml-5'/>
+        <p className='text-white text-[20px] text-wrap uppercase ml-2'>
+        Reprogram your mind and body
+        </p>
+    </div>
+
     <div className='bg-[#0C0C0C] box w-[277px] h-[99px] flex flex-row items-center'>
         <img src='./curl.png' className='w-[66px] h-[56px] ml-5'/>
         <p className='text-white text-[20px] text-wrap uppercase ml-2'>
@@ -124,13 +146,100 @@ const About = () => {
     </div>
 
       <h1 className='font-medium text-[38px] sm:text-[28px] text-white mt-20 text-center uppercase'>benefits</h1>
+       
         <div className='flex flex-row flexCenter gap-x-4 mt-4 flex-wrap'>
-              <div className='box w-[348px] h-[268px] bg-[#0C0C0C] flexCenter'>
+              <div className='box w-[348px] h-[268px] bg-[#0C0C0C] flex flex-col text-center items-center py-6'>
                     <img src='./d.png'/>
+                    <p className='text-[20px] text-white uppercase mt-2'>
+                      spiritual growth
+                    </p>
+                  
+                  <div className='flex flex-row gap-x-2 mt-4'>
+                      <img src='./arrow.png'/>
+                      <p className='text-white font-light text-[18px]'>Develop a better relationship with God</p>
+                  </div>
+                  <div className='flex flex-row gap-x-2 ml-8 mt-2'>
+                      <img src='./arrow.png'/>
+                      <p className='text-white font-light text-[18px] '>Increase spiritual awareness and connection</p>
+                  </div>
               </div>
 
+              <div className='box w-[348px] h-[268px] bg-[#0C0C0C] flex flex-col text-center items-center py-6  '>
+                    <img src='./d.png'/>
+                    <p className='text-[20px] text-white uppercase mt-2'>
+                    Mental Resilience
+                    </p>
+                  
+                  <div className='flex flex-row gap-x-2 mt-4'>
+                      <img src='./arrow.png'/>
+                      <p className='text-white font-light text-[18px]'>Enhance your mental toughness</p>
+                  </div>
+                  <div className='flex flex-row gap-x-2 mt-2 flexCenter'>
+                      <img src='./arrow.png'/>
+                      <p className='text-white font-light text-[18px]'>Adopt a positive mindset and eliminate limiting beliefs</p>
+                  </div>
+                
+              </div>
 
-        </div>
+              <div className='box w-[348px] h-[268px] bg-[#0C0C0C] flex flex-col text-center items-center py-6 sm:mt-6 '>
+                    <img src='./d.png'/>
+                    <p className='text-[20px] text-white uppercase mt-'>
+                    Self-Improvement
+                    </p>
+                  
+                  <div className='flex flex-row gap-x-2 mt-4'>
+                      <img src='./arrow.png'/>
+                      <p className='text-white font-light text-[18px]'>Develop a better relationship with God</p>
+                  </div>
+                  <div className='flex flex-row gap-x-2 ml-8 mt-2'>
+                      <img src='./arrow.png'/>
+                      <p className='text-white font-light text-[18px] '>Increase spiritual awareness and connection</p>
+                  </div>
+                  </div>        
+    </div>
+
+    <div className='flex flex-row flexCenter gap-x-4 mt-4 '>
+    <div className='box w-[348px] h-[268px] bg-[#0C0C0C] flex flex-col text-center items-center py-6 sm:mt-4'>
+                    <img src='./d.png'/>
+                    <p className='text-[20px] text-white uppercase mt-2'>
+                    Financial Success
+                    </p>
+                  
+                  <div className='flex flex-row gap-x-2 mt-4'>
+                      <img src='./arrow.png'/>
+                      <p className='text-white font-light text-[18px]'>Achieve more money and financial stability</p>
+                  </div>
+                  <div className='flex flex-row gap-x-2  mt-2'>
+                      <img src='./arrow.png'/>
+                      <p className='text-white font-light text-[18px] '>Develop habits that lead to financial growth</p>
+                  </div>
+                 
+              </div> 
+              <div className='flex flex-row flexCenter gap-x-4 mt-4'>
+              <div className='box w-[348px] h-[268px] bg-[#0C0C0C] flex flex-col text-center items-center py-6'>
+                    <img src='./d.png'/>
+                    <p className='text-[20px] text-white uppercase mt-2'>
+                    Better Relationships
+                    </p>
+                  
+                  <div className='flex flex-row gap-x-2 mt-4'>
+                      <img src='./arrow.png'/>
+                      <p className='text-white font-light text-[18px]'>Improve connections with others</p>
+                  </div>
+                  <div className='flex flex-row gap-x-2 ml-8 mt-2'>
+                      <img src='./arrow.png'/>
+                      <p className='text-white font-light text-[18px] '>Build healthy, supportive relationships</p>
+                  </div>
+              </div>
+              </div>
+    </div>
+        <img src='./aboutline.png' className='2xl:w-screen xl:w-screen lg:w-screen 2xl:mt-6 xl:mt-12 lg:mt-12'></img>
+
+        <Commit/>
+      
+      <Rating/>
+      
+      <Blog/>
     </main>
   )
 }
