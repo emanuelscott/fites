@@ -101,6 +101,36 @@ const About = () => {
         </div>
 
        
+    <div className='bg-[#0C0C0C] box w-[277px] h-[99px] flex flex-row items-center'>
+        <img src='./curl.png' className='w-[66px] h-[56px] ml-5'/>
+        <p className='text-white text-[20px] text-wrap uppercase ml-2'>
+        Reprogram your mind and body
+        </p>
+    </div>
+
+    <div className='bg-[#0C0C0C] box w-[277px] h-[99px] flex flex-row items-center'>
+        <img src='./check.png' className='w-[66px] h-[56px] ml-5'/>
+        <p className='text-white text-[20px] text-wrap uppercase ml-2'>
+        Reprogram your mind and body
+        </p>
+    </div>
+
+    <div className='bg-[#0C0C0C] box w-[277px] h-[99px] flex flex-row items-center'>
+        <img src='./run.png' className='w-[66px] h-[56px] ml-5'/>
+        <p className='text-white text-[20px] text-wrap uppercase ml-2'>
+        Reprogram your mind and body
+        </p>
+    </div>
+    </div>
+
+      <h1 className='font-medium text-[38px] sm:text-[28px] text-white mt-20 text-center uppercase'>benefits</h1>
+        <div className='flex flex-row flexCenter gap-x-4 mt-4 flex-wrap'>
+              <div className='box w-[348px] h-[268px] bg-[#0C0C0C] flexCenter'>
+                    <img src='./d.png'/>
+              </div>
+
+
+        </div>
     </main>
   )
 }
