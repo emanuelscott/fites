@@ -6,11 +6,12 @@ import Commit from './Commitment/page'
 import Rating from './Rating/page'
 import Blog from "./Blog/page";
 import Reprogram from '../Home/Reprogram/page';
+import Footer from '../Footer/page';
 
 const About = () => {
   return (
-  
-    <main className='bg-black 2xl:w-screen min-h-screen xl:w-screen lg:w-screen lmd:w-screen sm:w-[390px]  overflow-x-hidden'>
+   
+    <main className='bg-black 2xl:w-screen min-h-screen xl:w-screen lg:w-screen lmd:w-screen sm:w-[390px]  overflow-x-hidden relative scroll-smooth'>
            
            
     <div className='flex flex-col flexCenter'>
@@ -213,6 +214,8 @@ const About = () => {
       <Rating/>
       
       <Blog/>
+
+      <Footer/>
     </main>
   )
 }
