@@ -1,11 +1,12 @@
 import React from 'react';
+import Footer from '../Footer/page';
 
 
 const Blog = () => {
   return(
-    <main className='bg-black 2xl:w-screen min-h-screen xl:w-screen lg:w-screen n md:w-screen  sm:w-[1150px] sm:h-[2500px]'>
+    <main className='bg-black 2xl:w-screen min-h-screen xl:w-screen lg:w-screen md:w-screen sm:w-[390px] overflow-x-hidden '>
           <div className='flex flex-col text-white text-center uppercase 2xl:text-[48px] xl:text-[48px] sm:text-[38px] font-medium'>
-              <h1 className='mt-20 sm:ml-5'>blog</h1>
+              <h1 className='mt-20 '>blog</h1>
 
 
               <div className='flex flex-row flexCenter gap-x-2 2xl:visible xl:visible lg:visible md:invisible sm:invisible'>
@@ -25,9 +26,9 @@ const Blog = () => {
 
 
 
-              <div className='flex flex-row flexBetween mt-10 sm:flex-wrap sm:flexCenter sm:ml-1 sm:gap-y-10'>
+              <div className='flex flex-row flexBetween mt-10 sm:flex-wrap sm:flexCenter sm:gap-y-10 gap-x-6'>
 
-            <div className='box w-[380px] h-[462px] sm:w-[320px] flex flex-col sm:ml-5'>
+            <div className='box w-[380px] h-[462px] sm:w-[320px] flex flex-col '>
                 <img src='./es.png'  />
                 <img src='./fitness.png ' className='w-[74px] h-[30px] mt-4'/>
                 
@@ -49,7 +50,7 @@ const Blog = () => {
                 </div>            
             </div>
 
-            <div className='box w-[380px] h-[462px] sm:w-[320px]  flex flex-col sm:ml-5'>
+            <div className='box w-[380px] h-[462px] sm:w-[320px]  flex flex-col '>
                 <img src='./es2.png' />
                 <img src='./fitness.png ' className='w-[74px] h-[30px] mt-4'/>
                 
@@ -68,7 +69,7 @@ const Blog = () => {
                 </div>            
             </div>
 
-            <div className='box w-[380px] h-[462px] sm:w-[320px]  flex flex-col sm:ml-5'>
+            <div className='box w-[380px] h-[462px] sm:w-[320px]  flex flex-col '>
                 <img src='./es3.png'  />
                 <img src='./fitness.png ' className='w-[74px] h-[30px] mt-4'/>
                 
@@ -93,7 +94,7 @@ const Blog = () => {
 
 
 
-          <div className='flex flex-row flexBetween mt-10 sm:flex-wrap sm:flexCenter '>
+          <div className='flex flex-row flexBetween mt-10 sm:flex-wrap sm:flexCenter gap-x-6 '>
 
 <div className='box w-[380px] h-[462px] sm:w-[320px]  flex flex-col sm:ml-5'>
     <img src='./es.png'  />
@@ -117,7 +118,7 @@ const Blog = () => {
     </div>            
 </div>
 
-<div className='box w-[380px] h-[462px] sm:w-[320px] flex flex-col sm:ml-5'>
+<div className='box w-[380px] h-[462px] sm:w-[320px] flex flex-col'>
     <img src='./es2.png' />
     <img src='./fitness.png ' className='w-[74px] h-[30px] mt-4'/>
     
@@ -136,7 +137,7 @@ const Blog = () => {
     </div>            
 </div>
 
-<div className='box w-[380px] h-[462px] sm:w-[320px]  flex flex-col sm:ml-5'>
+<div className='box w-[380px] h-[462px] sm:w-[320px]  flex flex-col'>
     <img src='./es3.png'  />
     <img src='./fitness.png ' className='w-[74px] h-[30px] mt-4'/>
     
@@ -158,14 +159,15 @@ const Blog = () => {
     </div>            
 </div>
 </div>
-<a href="#">
+<a href="/Blog">
           <button type="button" className="font-oswald text-white uppercase bg-[#BF0A0A] font-medium text-[16px] px-4 py-2 text-center mt-20 w-[184px] h-[50px] 
-          2xl:invisible xl:invisible lg:invisible sm:visible ">
+          2xl:invisible xl:invisible lg:invisible sm:visible mb-10 ">
             Explore all blogs
             </button>
               </a>
           </div>
          
+         <Footer/>
     </main>
   )
 };

@@ -2,10 +2,10 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='p-4 flexBetween 2xl:w-screen xl:w-screen sm:w-[800px] 2xl:visible xl:visible sm:invisible bg-[#0C0C0C]' >
+    <footer className='p-4 flexBetween 2xl:w-screen xl:w-screen sm:w-[390px] bg-[#0C0C0C]' >
             <div className="mx-auto w-screen">
                 
-      <div className="grid grid-cols-2 gap-6 px-4 py-6 lg:py-8 md:grid-cols-4 xl:grid-cols-6 ml-20 mt-10">
+      <div className="grid grid-cols-2 gap-6 px-4 py-6 lg:py-8 md:grid-cols-4 xl:grid-cols-6 2xl:ml-20 xl:ml-20 lg:ml-20 mt-10">
        
         <div className='flex flex-col'>
             <img src='./logo.png' className='w-[145.96px] h-[42.88px]'/>
@@ -58,8 +58,9 @@ const Footer = () => {
         </div>
         </div>
 
-        <div className='ml-20'>
-            <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white font-oswald ">ES FITNESS</h2>
+        <div className='ml-20'> 
+
+            <h2 className="mb-4 text-sm font-semibold uppercase text-white font-oswald ">ES FITNESS</h2>
             <ul className="text-[#D5D5D5] font-light  uppercase font-oswald">
                 <li className="mb-4">
                     <a href="http://localhost:3000/" className="hover:underline">home</a>
@@ -78,8 +79,8 @@ const Footer = () => {
 
 
 
-        <div className='ml-10'>
-            <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white font-oswald">women's program</h2>
+        <div className='2xl:ml-10 xl:ml-10 lg:ml-10'>
+            <h2 className="mb-4 text-sm font-semibold  uppercase text-white font-oswald">women's program</h2>
             <ul className="text-[#D5D5D5] font-light uppercase font-oswald">
                 <li className="mb-4">
                     <a href="/Scuplt" className="hover:underline">Sculpt & Tone Program</a>
@@ -94,8 +95,8 @@ const Footer = () => {
         </div>
 
 
-        <div className='ml-10'>
-            <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white font-oswald">men's program</h2>
+        <div className='2xl:ml-10 xl:ml-10 lg:ml-10'>
+            <h2 className="mb-4 text-sm font-semibold uppercase text-white font-oswald">men's program</h2>
             <ul className="text-[#D5D5D5] font-light uppercase font-oswald">
                 <li className="mb-4">
                     <a href="/Peak" className="hover:underline">Peak Performance Program</a>
@@ -111,8 +112,8 @@ const Footer = () => {
 
 
 
-        <div className='ml-5'>
-            <h2 className="mb-4 text-sm font-semibold text-gray-900 dark:text-white uppercase font-oswald">links</h2>
+        <div className='2xl:ml-5 xl:ml-5 lg:ml-5'> 
+            <h2 className="mb-4 text-sm font-semibold text-white uppercase font-oswald">links</h2>
             <ul className="text-[#D5D5D5] font-light  uppercase font-oswald">
                 <li className="mb-4">
                     <a href="/Contact" className="hover:underline">contact</a>
@@ -127,7 +128,7 @@ const Footer = () => {
         </div>
 
         <div>
-            <h2 className="mb-4 text-sm font-semibold text-gray-900 dark:text-white uppercase font-oswald">download mobible apps</h2>
+            <h2 className="mb-4 text-sm font-semibold text-white uppercase font-oswald">download mobible apps</h2>
             <ul className="text-[#D5D5D5] font-light uppercase font-oswald">
                 <li className="mb-4">
                     <a href="#" className="">
