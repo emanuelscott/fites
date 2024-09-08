@@ -15,7 +15,7 @@ const Navbar = () => {
 
  
   return (
-    <div className='bg-black flex flexBetween items-center text-center h-20 bg-gradient-to-r from-[#D80000] via-[#2B2B2B] to-black 2xl:w-screen xl:w-screen sm:w-[390px] overflow-x-hidden px-4 text-white '>
+    <div className='sticky top-0 z-50 bg-black flex flexBetween items-center text-center h-20 bg-gradient-to-r from-[#D80000] via-[#2B2B2B] to-black 2xl:w-screen xl:w-screen sm:w-[390px] overflow-x-hidden px-4 text-white '>
       {/* Logo */}
       <div className='flex flex-row items-center'>
   <img src='./cross.png' className='2xl:w-[52px] 2xl:h-[32.1px] 2xl:ml-8 xl:w-[52px] xl:h-[32.1px] xl:ml-8 

@@ -4,8 +4,8 @@ import React from 'react'
 const Blog = () => {
    
     
-  return (
-   <main className='bg-black 2xl:w-screen 2xl:h-[900px] xl:w-screen xl:h-[840px] sm:w-[390px] sm:h-[1050px] '>
+  return (   
+  <main className='bg-black 2xl:w-screen 2xl:h-[900px] xl:w-screen xl:h-[840px] sm:w-[390px] sm:h-[1800px] '>
         <img src='./line4.png' className='w-screen'/>
 
     <div className='flex flex-col mt-8'>
@@ -13,10 +13,10 @@ const Blog = () => {
             blog
         </span>
         
-        <div className='flex flex-row flexBetween 2xl:gap-x-20 xl:gap-x-20 mt-10 sm:overflow-auto gap-x-2 sm:flexCenter flex-wrap'>
+        <div className='flex flex-row flexBetween 2xl:gap-x-20 xl:gap-x-20 mt-10 gap-x-2 sm:flexCenter flex-wrap'>
 
             <div className='flex flex-col 2xl:ml-20 mb-10'>
-                <img src='./es.png'  />
+                <img src='./es.png' className='' />
                 <img src='./fitness.png ' className='w-[74px] h-[30px] mt-4'/>
                 <div className='box w-[297px] h-[58px]'>
                 <span className='text-white uppercase text-[24px]'>

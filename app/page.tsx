@@ -10,11 +10,11 @@ export default function Home() {
  
   return (
 
-   <main className="2xl:w-screen xl:w-screen h-screen bg-black sm:w-[390px] overflow-x-hidden">
+   <main className="2xl:w-screen xl:w-screen h-screen bg-black sm:w-[390px] overflow-x-hidden relative">
       
     <div className="flex flex-col ">
     <div className="flex flex-row flexBetween 2xl:flex-nowrap xl:flex-nowrap sm:flex-wrap 2xl:ml-20 xl:ml-20">
-    <div className="flex flex-col  sm:flexCenter text-center sm:mt-10">
+    <div className="flex flex-col  sm:flexCenter text-center sm:mt-10 sm:ml-4 ">
     <span className="font-regular font-oswald text-[#D80000] 2xl:text-[28px] sm:text-[20px] md:text-[16px] lg:text-[28px] xl:text-[28px] mt-30">
       UNLOCK YOUR POTENTIAL WITH 
       </span>
@@ -146,7 +146,7 @@ export default function Home() {
       <Rating />
       <Blog/>
 
-     
+     <Footer/>
  
      
    </main>
