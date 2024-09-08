@@ -1,28 +1,36 @@
 'use client'
 
-import React from 'react'
+
+
 import Commit from './Commitment/page'
 import Rating from './Rating/page'
 import Blog from "./Blog/page";
+import Reprogram from '../Home/Reprogram/page';
 
 const About = () => {
   return (
-    <main className='bg-black 2xl:w-screen min-h-screen xl:w-screen lg:w-screen lmd:w-screen sm:w-[1150px] mx-auto overflow-x-scroll'>
+  
+    <main className='bg-black 2xl:w-screen min-h-screen xl:w-screen lg:w-screen lmd:w-screen sm:w-[390px]  overflow-x-hidden'>
            
            
     <div className='flex flex-col flexCenter'>
-    <p className='text-[#D80000] uppercase text-[28px] mt-20 text-center'>
+        <img src='./aboutmobile.png' className='sm:mt-12 2xl:invisible xl:invisible 2xl:w-[0] 2xl:h-[0] xl:w-[0] xl:h-[0] sm:visible'/>
+    <p className='text-[#D80000] uppercase text-[28px] mt-12 text-center'>
             our founder
         </p>
 
-        <h1 className='uppercase text-[48px] font-medium text-white mt-1 text-center'>
+        <h1 className='uppercase text-[44px] font-medium text-white mt-1 text-center'>
             emanuel scott 
         </h1>
 
         <div className='flex flex-row flexCenter gap-x-14 '>
-            <img src='/about1.png' className='2xl:visible xl:visible lg:visible sm:invisible '/>
+            <img src='/about1.png' className='2xl:visible xl:visible lg:visible sm:invisible 2xl:w-[321px] xl:w-[321px] lg:w-[321px] sm:w-0'/>
 
-            <div className='box w-[636px] sm:w-[1300px] h-[679px] text-white text-wrap font-light mb-48 ml-6 2xl:text-[20px] xl:text-[20px] sm:text-[16px] text-center'>
+            <div className='box 2xl:w-[636px] xl:w-[636px] sm:w-[360px] h-[679px] text-white text-wrap font-light mb-48 ml-6 sm:ml-0 2xl:text-[20px] xl:text-[20px] sm:text-[12px] text-center'>
+               
+            <div>
+      
+    </div>
                 <p className='indent-3'>
                 Hi, my name is Emanuel Scott, and my journey to health and self-improvement has been far from conventional. My family and I spent several years homeless, living with various friends and constantly moving from place to place. This period of instability meant frequently changing schools and struggling to find a sense of normalcy. When I was 14, life took another hard turn—I was kicked out and continued to move from one friend’s house to another.
                 </p>
@@ -95,60 +103,23 @@ const About = () => {
         </div>
         </div>
             </div>
-            <img src='/about2.png' className='2xl:visible xl:visible lg:visible sm:invisible '/>
+            <img src='/about2.png' className='2xl:visible xl:visible lg:visible sm:invisible 2xl:w-[334px] xl:w-[334px] lg:w-[334px] sm:w-0'/>
         </div>
 
     
         
         </div>
         
-        <h1 className='font-medium 2xl:text-[38px] sm:text-[32px] text-white 2xl:mt-40 xl:mt-40 lg:mt-24 text-center uppercase'>Best version of my journey</h1>
+       
+        <h1 className='font-medium 2xl:text-[48px] xl:text-[48px] sm:text-[32px] text-white 2xl:mt-60 xl:mt-60 lg:mt-40 text-center uppercase'>Best version of my journey</h1>
+      
 
+        <img src='./journey.png' className='mt-12 w-screen '/>
 
-        <img src='./journey.png' className='mt-10 min-w-screen '/>
-
-       <div className='flex flex-row flexCenter mt-24 sm:mt-20'>
-        <p className='text-white 2xl:text-[38px] sm:text-[32px] md:text-[28px] lg:text-[30px] xl:text-[38px] font-medium uppercase '>
-        Reprogram for
-        </p>
-    <p className='text-[#D80000] 2xl:text-[38px] sm:text-[32px] md:text-[28px] lg:text-[30px] xl:text-[38px] font-medium uppercase ml-2'>
-        Success
-        </p>
-    </div>
-
-    <div className='flex flex-row flexCenter gap-x-4 sm:gap-x-2 mt-4 flex-wrap gap-y-5'>
-    <div className='bg-[#0C0C0C] box w-[277px] h-[99px] flex flex-row items-center'>
-        <img src='./flex.png' className='w-[66px] h-[56px] ml-5'/>
-        <p className='text-white text-[20px] text-wrap uppercase ml-2'>
-        Reprogram your mind and body
-        </p>
-    </div>
-
-    <div className='bg-[#0C0C0C] box w-[277px] h-[99px] flex flex-row items-center'>
-        <img src='./curl.png' className='w-[66px] h-[56px] ml-5'/>
-        <p className='text-white text-[20px] text-wrap uppercase ml-2'>
-        Reprogram your mind and body
-        </p>
-    </div>
-
-    <div className='bg-[#0C0C0C] box w-[277px] h-[99px] flex flex-row items-center'>
-        <img src='./check.png' className='w-[66px] h-[56px] ml-5'/>
-        <p className='text-white text-[20px] text-wrap uppercase ml-2'>
-        Reprogram your mind and body
-        </p>
-    </div>
-
-    <div className='bg-[#0C0C0C] box w-[277px] h-[99px] flex flex-row items-center'>
-        <img src='./run.png' className='w-[66px] h-[56px] ml-5'/>
-        <p className='text-white text-[20px] text-wrap uppercase ml-2'>
-        Reprogram your mind and body
-        </p>
-    </div>
-    </div>
-
+       
       <h1 className='font-medium text-[38px] sm:text-[28px] text-white mt-20 text-center uppercase'>benefits</h1>
        
-        <div className='flex flex-row flexCenter gap-x-4 mt-4 flex-wrap'>
+        <div className='flex flex-row flexCenter gap-x-4 mt-4 flex-wrap sm:gap-y-4'>
               <div className='box w-[348px] h-[268px] bg-[#0C0C0C] flex flex-col text-center items-center py-6'>
                     <img src='./d.png'/>
                     <p className='text-[20px] text-white uppercase mt-2'>
@@ -182,9 +153,9 @@ const About = () => {
                 
               </div>
 
-              <div className='box w-[348px] h-[268px] bg-[#0C0C0C] flex flex-col text-center items-center py-6 sm:mt-6 '>
+              <div className='box w-[348px] h-[268px] bg-[#0C0C0C] flex flex-col text-center items-center py-6 '>
                     <img src='./d.png'/>
-                    <p className='text-[20px] text-white uppercase mt-'>
+                    <p className='text-[20px] text-white uppercase'>
                     Self-Improvement
                     </p>
                   
@@ -197,10 +168,10 @@ const About = () => {
                       <p className='text-white font-light text-[18px] '>Increase spiritual awareness and connection</p>
                   </div>
                   </div>        
-    </div>
+  
 
-    <div className='flex flex-row flexCenter gap-x-4 mt-4 '>
-    <div className='box w-[348px] h-[268px] bg-[#0C0C0C] flex flex-col text-center items-center py-6 sm:mt-4'>
+    
+    <div className='box w-[348px] h-[268px] bg-[#0C0C0C] flex flex-col text-center items-center py-6'>
                     <img src='./d.png'/>
                     <p className='text-[20px] text-white uppercase mt-2'>
                     Financial Success
@@ -216,7 +187,7 @@ const About = () => {
                   </div>
                  
               </div> 
-              <div className='flex flex-row flexCenter gap-x-4 mt-4'>
+              <div className='flex flex-row flexCenter gap-x-4 '>
               <div className='box w-[348px] h-[268px] bg-[#0C0C0C] flex flex-col text-center items-center py-6'>
                     <img src='./d.png'/>
                     <p className='text-[20px] text-white uppercase mt-2'>
@@ -234,10 +205,11 @@ const About = () => {
               </div>
               </div>
     </div>
-        <img src='./aboutline.png' className='min-w-screen 2xl:mt-6 xl:mt-12 lg:mt-12 sm:w-[1150px]'></img>
+        <img src='./aboutline.png' className='min-w-screen 2xl:mt-6 xl:mt-12 lg:mt-12 sm:mt-10 sm:w-[1150px]'></img>
 
         <Commit/>
       
+      <Reprogram/>
       <Rating/>
       
       <Blog/>

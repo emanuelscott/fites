@@ -6,7 +6,7 @@ import Footer from '../Footer/page'
 
 const Services = () => {
   return (
-    <main className='2xl:w-screen xl:w-screen lg:w-screen md:w-screen sm:w-[1150px] h-screen bg-black '>
+    <main className='2xl:w-screen xl:w-screen lg:w-screen md:w-screen sm:w-[390px] h-screen bg-black overflow-x-hidden '>
         <div className='flex flex-col bg-black'>
       <div className='flex flex-row 2xl:text-[48px] xl:text-[48px] sm:text-[38px] font-medium uppercase flexCenter '>
          <p className='text-white mt-16'>
@@ -17,7 +17,7 @@ const Services = () => {
          </p>
       </div>
 
-      <div className="flex flex-row flexCenter mt-8 sm:mt-12 gap-x-3 flex-wrap">
+      <div className="flex flex-row flexCenter mt-8 sm:mt-12 gap-x-3 flex-wrap sm:gap-y-16">
 
 <div className='box text-white bg-[#0C0C0C] w-[307px] h-[480px] flex flex-col text-[18px] '>
   <img src='./tone.png' className='w-[46.12px] h-[60px] mt-5 ml-10'/>
@@ -278,7 +278,7 @@ const Services = () => {
 
 
 
-    <div className="flex flex-row flexCenter mt-20 gap-x-3">
+    <div className="flex flex-row flexCenter mt-20 gap-x-3 flex-wrap sm:gap-y-12">
     <div className='box text-white bg-[#0C0C0C] w-[307px] h-[480px] flex flex-col text-[18px]'>
   <img src='./strength.png' className='w-[46.12px] h-[60px]  mt-5 ml-10'/>
 
@@ -517,7 +517,7 @@ const Services = () => {
     
   </div>
     
-    <div className='mt-40'>
+    <div className='mt-20'>
         <Footer/>
     </div>
 

@@ -3,7 +3,7 @@ import React from 'react'
 
 const HeroContinue = () => {
   return (
-    <main className='2xl:w-screen 2xl:h-[1050px] xl:w-screen xl:h-[1050px] bg-black flex flex-col sm:w-[1150px] sm:h-[900px] mx-auto'>
+    <main className='2xl:w-screen 2xl:h-[1050px] xl:w-screen xl:h-[1050px] bg-black flex flex-col sm:w-[390px] sm:h-[2000px] mx-auto'>
     <img src='./line2.png' className='2xl:w-screen  xl:w-screen  sm:w-[1150px]'/>
     <div className='flex flex-col'>
 <div className='text-center flex flex-col items-center text-white'>
@@ -19,7 +19,7 @@ const HeroContinue = () => {
           to help you grow your Glutes and tighten your waist, enhancing your natural curves and boosting your confidence.                  </p>
 </div>
 
-<div className="flex flex-row flexCenter mt-8 gap-x-3 gap-y-10">
+<div className="flex flex-row flexCenter mt-8 gap-x-3 gap-y-10 sm:flex-wrap">
 <div className='box text-white bg-[#0C0C0C] w-[307px] h-[480px] flex flex-col '>
   <img src='./bicep.png' className='w-[46.12px] h-[60px] mt-5 ml-10'/>
 
@@ -82,9 +82,12 @@ const HeroContinue = () => {
       Access to a private support group.        
           </p>
   </div>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase 2xl:mt-12 xl:mt-12 sm:mt-12 2xl:ml-10 xl:ml-10 sm:ml-12 w-[210px] h-[60px] ">
+
+  <a href='/Services'>
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase ml-10 mt-16 w-[210px] h-[60px] ">
   Secure Your Spot Now
   </button>
+  </a>
 </div>
 
 
@@ -159,10 +162,11 @@ const HeroContinue = () => {
   </div>
 
 
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase  2xl:mt-12 xl:mt-12 sm:mt-12 2xl:ml-10 xl:ml-10 sm:ml-12 w-[210px] h-[60px] ">
+  <a href='/Services'>
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase ml-10 mt-16 w-[210px] h-[60px] ">
   Secure Your Spot Now
   </button>
-
+  </a>
 </div>
 
 
@@ -230,9 +234,11 @@ const HeroContinue = () => {
   </div>
 
   
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase 2xl:mt-12 xl:mt-12 sm:mt-12 2xl:ml-10 xl:ml-10 sm:ml-12 w-[210px] h-[60px] ">
+  <a href='/Services'>
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase ml-10 mt-16 w-[210px] h-[60px] ">
   Secure Your Spot Now
   </button>
+  </a>
 
         </div>
     </div>
@@ -241,7 +247,7 @@ const HeroContinue = () => {
 
 
 
-<img src="./line8.png" className="2xl:w-screen h-[164px] mt-20"/>
+<img src="./line8.png" className="w-screen h-[164px] mt-24"/>
 
 </main>
   )
