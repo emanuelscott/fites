@@ -7,7 +7,7 @@ import Blog from "./Blog/page";
 
 const About = () => {
   return (
-    <main className='bg-black 2xl:w-screen min-h-screen xl:w-screen lg:w-screen lmd:w-screen sm:w-[800px] '>
+    <main className='bg-black 2xl:w-screen min-h-screen xl:w-screen lg:w-screen lmd:w-screen sm:w-[1150px] mx-auto overflow-x-scroll'>
            
            
     <div className='flex flex-col flexCenter'>
@@ -102,20 +102,21 @@ const About = () => {
         
         </div>
         
-        <h1 className='font-medium 2xl:text-[38px] sm:text-[28px] text-white 2xl:mt-40 xl:mt-40 lg:mt-24 text-center uppercase'>Best version of my journey</h1>
+        <h1 className='font-medium 2xl:text-[38px] sm:text-[32px] text-white 2xl:mt-40 xl:mt-40 lg:mt-24 text-center uppercase'>Best version of my journey</h1>
 
-       <img src='./journey.png' className='mt-10 2xl:w-screen xl:w-screen lg:w-screen'/>
+
+        <img src='./journey.png' className='mt-10 min-w-screen '/>
 
        <div className='flex flex-row flexCenter mt-24 sm:mt-20'>
-        <p className='text-white 2xl:text-[38px] sm:text-[28px] md:text-[28px] lg:text-[30px] xl:text-[38px] font-medium uppercase '>
+        <p className='text-white 2xl:text-[38px] sm:text-[32px] md:text-[28px] lg:text-[30px] xl:text-[38px] font-medium uppercase '>
         Reprogram for
         </p>
-    <p className='text-[#D80000] 2xl:text-[38px] sm:text-[28px] md:text-[28px] lg:text-[30px] xl:text-[38px] font-medium uppercase ml-2'>
+    <p className='text-[#D80000] 2xl:text-[38px] sm:text-[32px] md:text-[28px] lg:text-[30px] xl:text-[38px] font-medium uppercase ml-2'>
         Success
         </p>
     </div>
 
-    <div className='flex flex-row flexCenter gap-x-4 mt-4 flex-wrap gap-y-5'>
+    <div className='flex flex-row flexCenter gap-x-4 sm:gap-x-2 mt-4 flex-wrap gap-y-5'>
     <div className='bg-[#0C0C0C] box w-[277px] h-[99px] flex flex-row items-center'>
         <img src='./flex.png' className='w-[66px] h-[56px] ml-5'/>
         <p className='text-white text-[20px] text-wrap uppercase ml-2'>
@@ -233,7 +234,7 @@ const About = () => {
               </div>
               </div>
     </div>
-        <img src='./aboutline.png' className='2xl:w-screen xl:w-screen lg:w-screen 2xl:mt-6 xl:mt-12 lg:mt-12'></img>
+        <img src='./aboutline.png' className='min-w-screen 2xl:mt-6 xl:mt-12 lg:mt-12 sm:w-[1150px]'></img>
 
         <Commit/>
       

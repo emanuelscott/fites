@@ -3,8 +3,8 @@ import React from 'react';
 
 const Blog = () => {
   return(
-    <main className='bg-black 2xl:w-screen 2xl:h-screen xl:w-screen xl:h-screen lg:w-screen lg:h-screen md:w-screen md:h-screen sm:w-[800px] sm:h-[2000px]'>
-          <div className='flex flex-col text-white text-center uppercase 2xl:text-[48px] xl:text-[48px] sm:text-[28px] font-medium'>
+    <main className='bg-black 2xl:w-screen min-h-screen xl:w-screen lg:w-screen n md:w-screen  sm:w-[1150px] sm:h-[2500px]'>
+          <div className='flex flex-col text-white text-center uppercase 2xl:text-[48px] xl:text-[48px] sm:text-[38px] font-medium'>
               <h1 className='mt-20 sm:ml-5'>blog</h1>
 
 
@@ -27,7 +27,7 @@ const Blog = () => {
 
               <div className='flex flex-row flexBetween mt-10 sm:flex-wrap sm:flexCenter sm:ml-1 sm:gap-y-10'>
 
-            <div className='box w-[380px] h-[462px] flex flex-col sm:ml-5'>
+            <div className='box w-[380px] h-[462px] sm:w-[320px] flex flex-col sm:ml-5'>
                 <img src='./es.png'  />
                 <img src='./fitness.png ' className='w-[74px] h-[30px] mt-4'/>
                 
@@ -49,7 +49,7 @@ const Blog = () => {
                 </div>            
             </div>
 
-            <div className='box w-[380px] h-[462px] flex flex-col sm:ml-5'>
+            <div className='box w-[380px] h-[462px] sm:w-[320px]  flex flex-col sm:ml-5'>
                 <img src='./es2.png' />
                 <img src='./fitness.png ' className='w-[74px] h-[30px] mt-4'/>
                 
@@ -68,7 +68,7 @@ const Blog = () => {
                 </div>            
             </div>
 
-            <div className='box w-[380px] h-[462px] flex flex-col sm:ml-5'>
+            <div className='box w-[380px] h-[462px] sm:w-[320px]  flex flex-col sm:ml-5'>
                 <img src='./es3.png'  />
                 <img src='./fitness.png ' className='w-[74px] h-[30px] mt-4'/>
                 
@@ -91,16 +91,11 @@ const Blog = () => {
             </div>
           </div>
 
-          <a href="#">
-          <button type="button" className="font-oswald text-white uppercase bg-[#BF0A0A] font-medium text-[16px] px-4 py-2 text-center mt-20 w-[184px] h-[50px] 
-          2xl:invisible xl:invisible lg:invisible sm:visible ">
-            Explore all blogs
-            </button>
-              </a>
 
-          <div className='flex flex-row flexBetween mt-10 sm:flex-wrap sm:flexCenter 2xl:visible xl:visible lg:visible sm:invisible'>
 
-<div className='box w-[380px] h-[462px] flex flex-col sm:ml-5'>
+          <div className='flex flex-row flexBetween mt-10 sm:flex-wrap sm:flexCenter '>
+
+<div className='box w-[380px] h-[462px] sm:w-[320px]  flex flex-col sm:ml-5'>
     <img src='./es.png'  />
     <img src='./fitness.png ' className='w-[74px] h-[30px] mt-4'/>
     
@@ -122,7 +117,7 @@ const Blog = () => {
     </div>            
 </div>
 
-<div className='box w-[380px] h-[462px] flex flex-col sm:ml-5'>
+<div className='box w-[380px] h-[462px] sm:w-[320px] flex flex-col sm:ml-5'>
     <img src='./es2.png' />
     <img src='./fitness.png ' className='w-[74px] h-[30px] mt-4'/>
     
@@ -141,7 +136,7 @@ const Blog = () => {
     </div>            
 </div>
 
-<div className='box w-[380px] h-[462px] flex flex-col sm:ml-5'>
+<div className='box w-[380px] h-[462px] sm:w-[320px]  flex flex-col sm:ml-5'>
     <img src='./es3.png'  />
     <img src='./fitness.png ' className='w-[74px] h-[30px] mt-4'/>
     
@@ -163,6 +158,12 @@ const Blog = () => {
     </div>            
 </div>
 </div>
+<a href="#">
+          <button type="button" className="font-oswald text-white uppercase bg-[#BF0A0A] font-medium text-[16px] px-4 py-2 text-center mt-20 w-[184px] h-[50px] 
+          2xl:invisible xl:invisible lg:invisible sm:visible ">
+            Explore all blogs
+            </button>
+              </a>
           </div>
          
     </main>

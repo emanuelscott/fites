@@ -15,19 +15,19 @@ const Navbar = () => {
 
  
   return (
-    <div className='bg-black flex justify-between items-center h-20 bg-gradient-to-r from-[#D80000] via-[#2B2B2B] to-black 2xl:w-screen xl:w-screen sm:w-[800px] mx-auto px-4 text-white '>
+    <div className='bg-black flex justify-between items-center h-20 bg-gradient-to-r from-[#D80000] via-[#2B2B2B] to-black 2xl:w-screen xl:w-screen sm:w-[1150px] mx-auto overflow-x-hidden px-4 text-white '>
       {/* Logo */}
       <div className='flex flex-row items-center'>
   <img src='./cross.png' className='2xl:w-[52px] 2xl:h-[32.1px] 2xl:ml-8 xl:w-[52px] xl:h-[32.1px] xl:ml-8 
-  sm:w-[30px] sm:h-[25px] sm:ml-4'/>
+  sm:w-[60px] sm:h-[40px] sm:ml-4'/>
   <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse 2xl:ml-10 xl:ml-10 sm:ml-3">
-      <img src="./logo2.png" className="2xl:h-[44.01px] 2xl:w-[149.81px] xl:w-[149.81px] xl:h-[44.01px] sm:w-[80px] sm:h-[24px]" />
+      <img src="./logo2.png" className="2xl:h-[44.01px] 2xl:w-[149.81px] xl:w-[149.81px] xl:h-[44.01px] sm:w-[120px] sm:h-[40px]" />
   </a>
   </div>
   
 
       {/* Desktop Navigation */}
-      <ul className='hidden md:flex space-x-8 2xl:space-x-16 xl:space-x-16  text-[18px]'>
+      <ul className='hidden md:flex space-x-8 2xl:space-x-16 xl:space-x-16 text-[18px]'>
       <li>
            <a href="https://esfitness.io/" className="block py-2 px-3 md:p-0  text-white  rounded bg-transparent hover:text-[#BF0A0A]" aria-current="page">HOME</a>
          </li>
@@ -80,9 +80,9 @@ const Navbar = () => {
       
       </ul>
     
-      <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse font-oswald">
+      <div className="flex md:order-2  md:space-x-0 rtl:space-x-reverse font-oswald">
       <a href='/Contact'>
-      <button type="button" className="2xl:w-[115px] xl:w-[115px] sm:w-[80px]  text-black bg-white 2xl:text-[16px] xl:text-[16px] sm:text-[10px] px-4 py-2 text-center 2xl:mr-20 xl:mr-20 sm:mr-10 hover:bg-[#BF0A0A] hover:text-white">CONTACT US</button>
+      <button type="button" className="2xl:w-[115px] xl:w-[115px] sm:w-[80px]  text-black bg-white 2xl:text-[16px] xl:text-[16px] sm:text-[10px] px-4 py-2 text-center 2xl:mr-20 xl:mr-20 sm:mr-20 hover:bg-[#BF0A0A] hover:text-white">CONTACT US</button>
       </a>     
   </div>
     </div>

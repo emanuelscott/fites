@@ -3,19 +3,19 @@ import React from 'react'
 
 const HeroContinue = () => {
   return (
-    <main className='2xl:w-screen 2xl:h-[1050px] xl:w-screen xl:h-[1050px] bg-black flex flex-col sm:w-[800px] sm:h-[900px]'>
-    <img src='./line2.png' className='2xl:w-screen  xl:w-screen  sm:w-[800px]'/>
+    <main className='2xl:w-screen 2xl:h-[1050px] xl:w-screen xl:h-[1050px] bg-black flex flex-col sm:w-[1150px] sm:h-[900px] mx-auto'>
+    <img src='./line2.png' className='2xl:w-screen  xl:w-screen  sm:w-[1150px]'/>
     <div className='flex flex-col'>
 <div className='text-center flex flex-col items-center text-white'>
         
-        <p className='font-oswald font-medium uppercase 2xl:text-[38px] sm:text-[26px] lg:text-[36px] xl:text-[38px] text-center mt-10'>
+        <p className='font-oswald font-medium uppercase 2xl:text-[38px] sm:text-[32px] lg:text-[36px] xl:text-[38px] text-center mt-10'>
         Men Unleash Your Potential Within
           </p>
 
 
-        <p className='mt-2 font-oswald font-light 2xl:text-[18px] xl:text-[18px] lg:text-[16px] sm:text-[12px]'>
+        <p className='mt-2 font-oswald font-light 2xl:text-[18px] xl:text-[18px] lg:text-[16px] sm:text-[16px]'>
         At Emanuel Scott Fitness, we understand that women have unique fitness goals. Our specialized programs are designed                  </p>
-          <p className='font-oswald font-light 2xl:text-[18px] xl:text-[18px] lg:text-[16px] sm:text-[12px]'>
+          <p className='font-oswald font-light 2xl:text-[18px] xl:text-[18px] lg:text-[16px] sm:text-[16px]'>
           to help you grow your Glutes and tighten your waist, enhancing your natural curves and boosting your confidence.                  </p>
 </div>
 
@@ -82,7 +82,7 @@ const HeroContinue = () => {
       Access to a private support group.        
           </p>
   </div>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase 2xl:mt-12 xl:mt-12 sm:mt-8 2xl:ml-10 xl:ml-10 sm:ml-8 w-[210px] h-[60px] ">
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase 2xl:mt-12 xl:mt-12 sm:mt-12 2xl:ml-10 xl:ml-10 sm:ml-12 w-[210px] h-[60px] ">
   Secure Your Spot Now
   </button>
 </div>
@@ -159,7 +159,7 @@ const HeroContinue = () => {
   </div>
 
 
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase  2xl:mt-12 xl:mt-12 sm:mt-14 2xl:ml-10 xl:ml-10 sm:ml-6 w-[210px] h-[60px] ">
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase  2xl:mt-12 xl:mt-12 sm:mt-12 2xl:ml-10 xl:ml-10 sm:ml-12 w-[210px] h-[60px] ">
   Secure Your Spot Now
   </button>
 
@@ -230,7 +230,7 @@ const HeroContinue = () => {
   </div>
 
   
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase 2xl:mt-12 xl:mt-12 sm:mt-20 2xl:ml-10 xl:ml-10 sm:ml-6 w-[210px] h-[60px] ">
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase 2xl:mt-12 xl:mt-12 sm:mt-12 2xl:ml-10 xl:ml-10 sm:ml-12 w-[210px] h-[60px] ">
   Secure Your Spot Now
   </button>
 
