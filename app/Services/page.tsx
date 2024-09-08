@@ -6,9 +6,9 @@ import Footer from '../Footer/page'
 
 const Services = () => {
   return (
-    <main className='2xl:w-screen xl:w-screen lg:w-screen md:w-screen sm:w-[800px] h-screen bg-black '>
+    <main className='2xl:w-screen xl:w-screen lg:w-screen md:w-screen sm:w-[1150px] h-screen bg-black '>
         <div className='flex flex-col bg-black'>
-      <div className='flex flex-row 2xl:text-[48px] xl:text-[48px] sm:text-[30px] font-medium uppercase flexCenter '>
+      <div className='flex flex-row 2xl:text-[48px] xl:text-[48px] sm:text-[38px] font-medium uppercase flexCenter '>
          <p className='text-white mt-16'>
           our
          </p>
@@ -17,11 +17,10 @@ const Services = () => {
          </p>
       </div>
 
-      <div className="flex flex-row flexCenter mt-8 gap-x-3">
+      <div className="flex flex-row flexCenter mt-8 sm:mt-12 gap-x-3 flex-wrap">
 
-<div className='box text-white bg-[#0C0C0C] 2xl:w-[307px] 2xl:h-[480px] xl:w-[307px] xl:h-[480px] 
-sm:w-[200px] sm:h-[300px] flex flex-col 2xl:text-[18px] xl:text-[18px] sm:text-[10px]'>
-  <img src='./tone.png' className='2xl:w-[46.12px] 2xl:h-[60px] sm:w-[20px] sm:h-[20px] mt-5 ml-10'/>
+<div className='box text-white bg-[#0C0C0C] w-[307px] h-[480px] flex flex-col text-[18px] '>
+  <img src='./tone.png' className='w-[46.12px] h-[60px] mt-5 ml-10'/>
 
   <span className='uppercase mt-4 ml-10'>
   Sculpt & Tone Program
@@ -97,19 +96,18 @@ sm:w-[200px] sm:h-[300px] flex flex-col 2xl:text-[18px] xl:text-[18px] sm:text-[
           </p>
   </div>
   <a href='/Scuplt'>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] 2xl:text-[16px] px-4 py-2 text-center uppercase 2xl:mt-12 2xl:ml-10 xl:mt-12 xl:ml-10 sm:mt-12 sm:ml-8 
-   2xl:w-[210px] 2xl:h-[60px] xl:w-[210px] xl:h-[60px] sm:w-[120px] sm:h-[30px] ">
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] 2xl:text-[16px] px-4 py-2 text-center uppercase mt-12 ml-10 
+   w-[210px] h-[60px]  ">
   learn more
   </button>
   </a>
 </div>
 
 
-<div className='box text-white bg-[#0C0C0C] 2xl:w-[307px] 2xl:h-[480px] xl:w-[307px] xl:h-[480px] 
-sm:w-[200px] sm:h-[300px] flex flex-col 2xl:text-[18px] xl:text-[18px] sm:text-[10px]'>
-  <img src='./glute.png'  className='2xl:w-[46.12px] 2xl:h-[60px] sm:w-[20px] sm:h-[20px] mt-5 ml-10'/>
+<div className='box text-white bg-[#0C0C0C] w-[307px] h-[480px] flex flex-col text-[18px]'>
+  <img src='./glute.png'  className='w-[46.12px] h-[60px] mt-6 ml-10'/>
 
-  <span className='uppercase mt-4 ml-10'>
+  <span className='uppercase mt-6 ml-10'>
   Glute Maximizer Program          
   </span>
 
@@ -183,8 +181,8 @@ sm:w-[200px] sm:h-[300px] flex flex-col 2xl:text-[18px] xl:text-[18px] sm:text-[
           </p>
   </div>
   <a href='/Glute'>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] 2xl:text-[16px] px-4 py-2 text-center uppercase 2xl:mt-12 2xl:ml-10 xl:mt-12 xl:ml-10 sm:mt-12 sm:ml-8 
-   2xl:w-[210px] 2xl:h-[60px] xl:w-[210px] xl:h-[60px] sm:w-[120px] sm:h-[30px] ">
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] 2xl:text-[16px] px-4 py-2 text-center uppercase mt-12 ml-10 
+   w-[210px] h-[60px] ">
   learn more
   </button>
   </a>
@@ -193,11 +191,10 @@ sm:w-[200px] sm:h-[300px] flex flex-col 2xl:text-[18px] xl:text-[18px] sm:text-[
 
 
 
-<div className='box text-white bg-[#0C0C0C] 2xl:w-[307px] 2xl:h-[480px] xl:w-[307px] xl:h-[480px] 
-sm:w-[200px] sm:h-[300px] flex flex-col 2xl:text-[18px] xl:text-[18px] sm:text-[10px]'>
-  <img src='./waist.png' className='2xl:w-[46.12px] 2xl:h-[60px] sm:w-[20px] sm:h-[20px] mt-5 ml-10'/>
+<div className='box text-white bg-[#0C0C0C] w-[307px] h-[480px] flex flex-col text-[18px]'>
+  <img src='./waist.png' className='w-[46.12px] h-[60px] mt-6 ml-10'/>
 
-  <span className='uppercase  mt-4 ml-10'>
+  <span className='uppercase  mt-6 ml-10'>
   Waist Wellness Program          
   </span>
 
@@ -271,8 +268,8 @@ sm:w-[200px] sm:h-[300px] flex flex-col 2xl:text-[18px] xl:text-[18px] sm:text-[
           </p>
   </div>
   <a href='/Waist'>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] 2xl:text-[16px] px-4 py-2 text-center uppercase 2xl:mt-12 2xl:ml-10 xl:mt-12 xl:ml-10 sm:mt-12 sm:ml-8 
-   2xl:w-[210px] 2xl:h-[60px] xl:w-[210px] xl:h-[60px] sm:w-[120px] sm:h-[30px] ">
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] 2xl:text-[16px] px-4 py-2 text-center uppercase mt-12 ml-10 
+  w-[210px] h-[60px] ">
   learn more
   </button>
   </a>
@@ -281,10 +278,9 @@ sm:w-[200px] sm:h-[300px] flex flex-col 2xl:text-[18px] xl:text-[18px] sm:text-[
 
 
 
-    <div className="flex flex-row flexCenter mt-8 gap-x-3">
-    <div className='box text-white bg-[#0C0C0C] 2xl:w-[307px] 2xl:h-[480px] xl:w-[307px] xl:h-[480px] 
-sm:w-[200px] sm:h-[300px] flex flex-col 2xl:text-[18px] xl:text-[18px] sm:text-[10px]'>
-  <img src='./strength.png' className='2xl:w-[46.12px] 2xl:h-[60px] sm:w-[20px] sm:h-[20px] mt-5 ml-10'/>
+    <div className="flex flex-row flexCenter mt-20 gap-x-3">
+    <div className='box text-white bg-[#0C0C0C] w-[307px] h-[480px] flex flex-col text-[18px]'>
+  <img src='./strength.png' className='w-[46.12px] h-[60px]  mt-5 ml-10'/>
 
   <span className='uppercase mt-4 ml-10'>
   Peak Performance Program
@@ -357,8 +353,8 @@ sm:w-[200px] sm:h-[300px] flex flex-col 2xl:text-[18px] xl:text-[18px] sm:text-[
                 </p>
   </div>
   <a href='/Peak'>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] 2xl:text-[16px] px-4 py-2 text-center uppercase 2xl:mt-12 2xl:ml-10 xl:mt-12 xl:ml-10 sm:mt-12 sm:ml-8 
-   2xl:w-[210px] 2xl:h-[60px] xl:w-[210px] xl:h-[60px] sm:w-[120px] sm:h-[30px] ">
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-12 ml-10
+   w-[210px] h-[60px]">
   learn more
   </button>
   </a>
@@ -367,9 +363,8 @@ sm:w-[200px] sm:h-[300px] flex flex-col 2xl:text-[18px] xl:text-[18px] sm:text-[
 
 
 
-<div className='box text-white bg-[#0C0C0C] 2xl:w-[307px] 2xl:h-[480px] xl:w-[307px] xl:h-[480px] 
-sm:w-[200px] sm:h-[300px] flex flex-col 2xl:text-[18px] xl:text-[18px] sm:text-[10px]'>
-  <img src='./muscle.png' className='2xl:w-[46.12px] 2xl:h-[60px] sm:w-[20px] sm:h-[20px] mt-5 ml-10'/>
+<div className='box text-white bg-[#0C0C0C] w-[307px] h-[480px] flex flex-col text-[18px]'>
+  <img src='./muscle.png' className='w-[60px] h-[60px] mt-2 ml-10'/>
 
   <span className='uppercase  mt-4 ml-10'>
   Endurance Elite Program          
@@ -433,8 +428,8 @@ sm:w-[200px] sm:h-[300px] flex flex-col 2xl:text-[18px] xl:text-[18px] sm:text-[
 
  
   <a href='/Endurance'>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] 2xl:text-[16px] px-4 py-2 text-center uppercase 2xl:mt-12 2xl:ml-10 xl:mt-12 xl:ml-10 sm:mt-20 sm:ml-8 
-   2xl:w-[210px] 2xl:h-[60px] xl:w-[210px] xl:h-[60px] sm:w-[120px] sm:h-[30px] ">
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-24 ml-10 
+   w-[210px] h-[60px]">
   learn more
   </button>
   </a>
@@ -442,9 +437,8 @@ sm:w-[200px] sm:h-[300px] flex flex-col 2xl:text-[18px] xl:text-[18px] sm:text-[
 </div>
 
 
-<div className='box text-white bg-[#0C0C0C] 2xl:w-[307px] 2xl:h-[480px] xl:w-[307px] xl:h-[480px] 
-sm:w-[200px] sm:h-[300px] flex flex-col 2xl:text-[18px] xl:text-[18px] sm:text-[10px]'>
-  <img src='./heart.png' className='2xl:w-[46.12px] 2xl:h-[60px] sm:w-[20px] sm:h-[20px] mt-5 ml-10'/>
+<div className='box text-white bg-[#0C0C0C] w-[307px] h-[480px] flex flex-col text-[18px]'>
+  <img src='./heart.png' className='w-[45px] h-[60px] mt-4 ml-10'/>
 
   <span className='uppercase mt-4 ml-10'>
   Cardio Blitz Program         
@@ -509,8 +503,8 @@ sm:w-[200px] sm:h-[300px] flex flex-col 2xl:text-[18px] xl:text-[18px] sm:text-[
 
 
   <a href='/Cardio'>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] 2xl:text-[16px] px-4 py-2 text-center uppercase 2xl:mt-12 2xl:ml-10 xl:mt-12 xl:ml-10 sm:mt-16 sm:ml-8 
-   2xl:w-[210px] 2xl:h-[60px] xl:w-[210px] xl:h-[60px] sm:w-[120px] sm:h-[30px] ">
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-20 ml-10 
+   w-[210px] h-[60px]">
   learn more
   </button>
   </a>

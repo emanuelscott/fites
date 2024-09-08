@@ -2,17 +2,17 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className=' bg-white 2xl:w-screen 2xl:h-[750px] xl:w-screen xl:h-[750px] sm:w-[800px] sm:h-[700px]'> 
+    <div className=' bg-white 2xl:w-screen 2xl:h-[750px] xl:w-screen xl:h-[750px] sm:w-[1100px] sm:h-[700px] mx-auto'> 
        <div className='text-center flex flex-col items-center'>
         
-        <p className='font-oswald font-medium uppercase 2xl:text-[38px] sm:text-[26px] lg:text-[36px] xl:text-[38px] text-center mt-10'>
+        <p className='font-oswald font-medium uppercase 2xl:text-[38px] sm:text-[32px] lg:text-[36px] xl:text-[38px] text-center mt-10'>
         Women Unleash Your Potential Within
           </p>
 
 
-        <p className='mt-2 font-oswald font-light 2xl:text-[18px] xl:text-[18px] lg:text-[16px] sm:text-[12px]'>
+        <p className='mt-2 font-oswald font-light 2xl:text-[18px] xl:text-[18px] lg:text-[16px] sm:text-[16px]'>
         At Emanuel Scott Fitness, we understand that women have unique fitness goals. Our specialized programs are designed                  </p>
-          <p className='font-oswald font-light 2xl:text-[18px] xl:text-[18px] lg:text-[16px] sm:text-[13px]'>
+          <p className='font-oswald font-light 2xl:text-[18px] xl:text-[18px] lg:text-[16px] sm:text-[16px]'>
           to help you grow your Glutes and tighten your waist, enhancing your natural curves and boosting your confidence.                  </p>
 
 
