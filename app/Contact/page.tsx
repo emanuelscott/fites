@@ -9,7 +9,7 @@ import twitterIcon from '../../public/x.png';
 import facebookIcon from '../../public/facebook.png';  
 import emanImage from '../../public/eman.png'; 
 import Footer from '../Footer/page';
-
+import Swal from 'sweetalert2'
 
 
 
@@ -22,26 +22,32 @@ export default function Contact() {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    setResult("Sending....");
+    setResult;
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "410b6195-a355-40ea-ab61-6846b9543358");
+    formData.append("access_key","410b6195-a355-40ea-ab61-6846b9543358");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       body: formData
     });
 
+    
     const data = await response.json();
 
     if (data.success) {
-      setResult("Submitted Successfully");
-      event.target.reset();
+      Swal.fire({
+        title: "Success!",
+        text: "Message sent successfully!",
+        icon: "success",
+        confirmButtonColor: "#D80000"
+      });
     } else {
       console.log("Error", data);
       setResult(data.message);
     }
   };
+
 
   return (
     <main>
@@ -52,23 +58,25 @@ export default function Contact() {
         <form onSubmit={onSubmit}>
           <div className="form-group">
             <div className="form-field">
+            <input type="hidden" name="subject" value="New Submission from ESFitness"/>
+            <input type="hidden" name="from_name" value="ESFitness"/>
               <label htmlFor="name">NAME</label>
-              <input type="text" id="name" placeholder='Enter your name' />
+              <input type="text" id="name" name='name' placeholder='Enter your name' required />
             </div>
             <div className="form-field">
               <label htmlFor="email">E-MAIL</label>
-              <input type="email" id="email" placeholder='Enter your email' required />
+              <input type="email" id="email" name='email' placeholder='Enter your email' required pattern='.+@gmail.com' />
             </div>
           </div>
           <div className="form-group">
             <div className="form-field">
               <label htmlFor="phone">PHONE</label>
-              <input type="tel" id="phone" placeholder='Enter your phone number' required />
+              <input type="tel" id="phone" name='phone' placeholder='Enter your phone number' required required-pattern='1234567890' maxLength={10}/>
             </div>
             <div className="form-field">
               <label htmlFor="service">SERVICE</label>
               <select id="service">
-                <option value="sculpt">SCULPT & TONE PROGRAM</option>
+                <option value="sculpt">SCULPT & TONE</option>
                 <option value="muscle">MUSCLE BUILDING</option>
                 <option value="weightloss">WEIGHT LOSS</option>
               </select>
@@ -76,13 +84,17 @@ export default function Contact() {
           </div>
           <div className="form-field">
             <label htmlFor="message">MESSAGE</label>
-            <textarea id="message" placeholder='Enter your message' required></textarea>
+            <textarea id="message" name='message' placeholder='Enter your message' required></textarea>
           </div>
-          <button type="submit">SEND MESSAGE
-            <span>{result}</span>
-          </button>
+
+          
+          <button type="submit">Send Message</button>
+      
+          <span>{result}</span>
         </form>
-      </div>
+   </div>
+
+
       <div className="image-and-social-media">
         <div className="contact-image">
           <Image 
