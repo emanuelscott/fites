@@ -23,7 +23,7 @@ const Services = () => {
   <img src='./tone.png' className='w-[46.12px] h-[60px] mt-5 ml-10'/>
 
   <span className='uppercase mt-4 ml-10'>
-  Sculpt & Tone Program
+  Sculpt & Tone Program (Base Package)
   </span>
 
   <div className='flex flex-row items-center '>
@@ -36,67 +36,47 @@ const Services = () => {
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className=' font-light ml-2'>
-      High-energy workouts.
+      High-energy, on-demand workout videos.
       </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className='font-light ml-2'>
-      Strength training.
+      Strength training and flexibility exercises.
       </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className=' font-light ml-2'>
-      Flexibility exercises.
+      Basic custom meal plans from a library.
       </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className=' font-light ml-2'>
-      Personalized life coaching.          
+      Simple progress tracking (weight, measurements, etc.).          
           </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className=' font-light ml-2'>
-      Custom meal plans.          
+      Weekly live group check-ins via Zoom.          
           </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className=' font-light ml-2'>
-      Progress tracking.         
+      24/7 support through the app.         
           </p>
   </div>
 
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className=' font-light ml-2'>
-      Weekly live check-ins.         
-          </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className=' font-light ml-2'>
-      24/7 support via app.         
-          </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className=' font-light ml-2'>
-      Access to a private support group.        
-          </p>
-  </div>
   <a href='/Scuplt'>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] 2xl:text-[16px] px-4 py-2 text-center uppercase mt-12 ml-10 
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] 2xl:text-[16px] px-4 py-2 text-center uppercase mt-16 ml-10 
    w-[210px] h-[60px]  ">
   learn more
   </button>
@@ -105,175 +85,162 @@ const Services = () => {
 
 
 <div className='box text-white bg-[#0C0C0C] w-[307px] h-[480px] flex flex-col text-[18px]'>
-  <img src='./glute.png'  className='w-[46.12px] h-[60px] mt-6 ml-10'/>
+  <img src='./waist.png' className='w-[46.12px] h-[60px] mt-6 ml-10'/>
 
-  <span className='uppercase mt-6 ml-10'>
-  Glute Maximizer Program          
+  <span className='uppercase  mt-6 ml-10'>
+  Waist Wellness Program (Mid-Tier Package)          
   </span>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10 mt-5 w-[4.54px] h-[10.08px]'/>
+      <p className='font-light ml-2 mt-5'>
+      Includes the Sculpt & Tone Program
+      </p>
+  </div>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
+      <p className='font-light ml-2'>
+      Personalized life coaching.
+      </p>
+  </div>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
+      <p className='font-light ml-2'>
+      Waist-specific workouts.
+      </p>
+  </div>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
+      <p className='font-light ml-2'>
+      Detox and bloat reduction tips.
+      </p>
+  </div>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
+      <p className='font-light ml-2'>
+      Waist-centric, customizable meal plans.         
+          </p>
+  </div>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
+      <p className='font-light ml-2'>
+      Daily waist-whittling tips and tricks.     
+          </p>
+  </div>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
+      <p className=' font-light ml-2'>
+      Core-strengthening sessions.         
+          </p>
+  </div>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
+      <p className='font-light ml-2'>
+      Access to a private support group.      
+          </p>
+  </div>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
+      <p className='font-light ml-2'>
+      Exclusive waist-specific challenges       
+          </p>
+  </div>
+
+  <a href='/Waist'>
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] 2xl:text-[16px] px-4 py-2 text-center uppercase mt-10 ml-10 
+  w-[210px] h-[60px] ">
+  learn more
+  </button>
+  </a>
+        </div>
+
+        <div className='box text-white bg-[#0C0C0C] w-[307px] h-[480px] flex flex-col text-[18px]'>
+  <img src='./glute.png'  className='w-[46.12px] h-[60px] mt-6 ml-10'/>
+
+  <span className='uppercase mt-6 ml-10'>
+  Glute Maximizer Program (Premium Package)     
+  </span>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10 w-[4.54px] h-[10.08px]'/>
       <p className=' font-light ml-2 mt-5'>
-      Achieve a lean and toned physique.
+      Includes the Sculpt & Tone & Waist Wellness Programs
       </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className=' font-light ml-2'>
-      High-energy workouts.
+      Exclusive Booty Building Kit.
       </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className=' font-light ml-2'>
-      Strength training.
+      Advanced glute-focused workout routines
       </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className=' font-light ml-2'>
-      Flexibility exercises.
+      Monthly 1-on-1 coaching sessions.
       </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className=' font-light ml-2'>
-      Personalized life coaching.          
+      Weekly personalized video check-ins.       
           </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className=' font-light ml-2'>
-      Custom meal plans.          
+      Glute-focused meal plans.       
           </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className=' font-light ml-2'>
-      Progress tracking.         
+      VIP access to private support.             
           </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className=' font-light ml-2'>
-      Weekly live check-ins.         
+      Access to an exclusive video library.                 
           </p>
   </div>
 
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className=' font-light ml-2'>
-      24/7 support via app.         
+      Achievement rewards for milestones.          
           </p>
   </div>
 
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className=' font-light ml-2'>
-      Access to a private support group.        
-          </p>
-  </div>
+
   <a href='/Glute'>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] 2xl:text-[16px] px-4 py-2 text-center uppercase mt-12 ml-10 
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] 2xl:text-[16px] px-4 py-2 text-center uppercase mt-4 ml-10 
    w-[210px] h-[60px] ">
   learn more
   </button>
   </a>
 
 </div>
-
-
-
-<div className='box text-white bg-[#0C0C0C] w-[307px] h-[480px] flex flex-col text-[18px]'>
-  <img src='./waist.png' className='w-[46.12px] h-[60px] mt-6 ml-10'/>
-
-  <span className='uppercase  mt-6 ml-10'>
-  Waist Wellness Program          
-  </span>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10 mt-5 w-[4.54px] h-[10.08px]'/>
-      <p className='font-light ml-2 mt-5'>
-      Achieve a lean and toned physique.
-      </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='font-light ml-2'>
-      High-energy workouts.
-      </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='font-light ml-2'>
-      Strength training.
-      </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='font-light ml-2'>
-      Flexibility exercises.
-      </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='font-light ml-2'>
-      Personalized life coaching.          
-          </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='font-light ml-2'>
-      Custom meal plans.          
-          </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className=' font-light ml-2'>
-      Progress tracking.         
-          </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='font-light ml-2'>
-      Weekly live check-ins.         
-          </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='font-light ml-2'>
-      24/7 support via app.         
-          </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='font-light ml-2'>
-      Access to a private support group.        
-          </p>
-  </div>
-  <a href='/Waist'>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] 2xl:text-[16px] px-4 py-2 text-center uppercase mt-12 ml-10 
-  w-[210px] h-[60px] ">
-  learn more
-  </button>
-  </a>
-        </div>
     </div>
 
 

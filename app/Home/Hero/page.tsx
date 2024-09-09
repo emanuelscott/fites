@@ -223,7 +223,7 @@ const Hero = () => {
   <div className='flex flex-row items-center '>
       <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
       <p className='text-[18px] font-light ml-2'>
-      Access to an exclusive video librar         
+      Access to an exclusive video library         
           </p>
   </div>
 
