@@ -108,16 +108,24 @@ export default function Contact() {
         <div className="social-media">
           <div className="social-icons">
             <div className="icon">
-              <Image src={instagramIcon} alt="Instagram" />
+              <a href='https://www.instagram.com/emanuelscottfitt?igsh=MTdndHRzdm5wNG5s&utm_source=qr'>
+              <button type='button'><Image src={instagramIcon} alt="Instagram"/></button>
+             </a>
             </div>
             <div className="icon">
-              <Image src={tiktokIcon} alt="TikTok" />
+              <a href='https://youtube.com/@emanuelscottfitt?si=cabx4RkARMlU0p1F'>
+              <button type='button'><Image src={tiktokIcon} alt="TikTok" /></button>
+              </a>
             </div>
             <div className="icon">
-              <Image src={twitterIcon} alt="X/Twitter" />
+              <a href='https://x.com/Emanuelscottfit'>
+              <button type='button'><Image src={twitterIcon} alt="X/Twitter" /></button>
+              </a>
             </div>
             <div className="icon">
-              <Image src={facebookIcon} alt="Facebook" />
+              <a href='https://www.facebook.com/emanuelscottfitt'>
+              <button type='button'><Image src={facebookIcon} alt="Facebook" /></button>
+              </a>
             </div>
           </div>
         </div>

@@ -19,7 +19,7 @@ const Landing = () => {
             </h3>
       </div>
 
-      <a href='http://localhost:3000/Contact'>
+      <a href='/Contact'>
   <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase w-[210px] h-[60px] 2xl:mt-0 xl:mt-0 sm:mt-5">
       let's start now
   </button>

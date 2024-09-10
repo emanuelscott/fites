@@ -247,10 +247,156 @@ const Services = () => {
 
     <div className="flex flex-row flexCenter mt-20 gap-x-3 flex-wrap sm:gap-y-12">
     <div className='box text-white bg-[#0C0C0C] w-[307px] h-[480px] flex flex-col text-[18px]'>
+  <img src='./heart.png' className='w-[45px] h-[60px] mt-4 ml-10'/>
+
+  <span className='uppercase mt-4 ml-10'>
+  Cardio Blitz Program (Base Package)             
+  </span>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10 w-[4.54px] h-[10.08px]'/>
+      <p className=' font-light ml-2 mt-5'>
+      Ignite your cardiovascular health and burn fat
+            </p>
+  </div>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
+      <p className='font-light ml-2'>
+      Intense cardio workouts.
+      </p>
+  </div>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
+      <p className='font-light ml-2'>
+      Metabolic conditioning.
+      </p>
+  </div>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
+      <p className='font-light ml-2'>
+      Expert nutrition advice.
+      </p>
+  </div>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
+      <p className='font-light ml-2'>
+      Personalized life coaching.          
+          </p>
+  </div>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
+      <p className='font-light ml-2'>
+      High-energy cardio sessions.         
+          </p>
+  </div>
+
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
+      <p className='font-light ml-2'>
+      Weekly live check-ins.         
+          </p>
+  </div>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
+      <p className='font-light ml-2'>
+      24/7 support via app.         
+          </p>
+  </div>
+
+
+  <a href='/Cardio'>
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-12 ml-10 
+   w-[210px] h-[60px]">
+  learn more
+  </button>
+  </a>
+          </div>
+    <div className='box text-white bg-[#0C0C0C] w-[307px] h-[480px] flex flex-col text-[18px]'>
+  <img src='./muscle.png' className='w-[60px] h-[60px] mt-2 ml-10'/>
+
+  <span className='uppercase  mt-4 ml-10'>
+  Endurance Elite Program (Mid-Tier Package)                     
+  </span>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10 mt-5 w-[4.54px] h-[10.08px]'/>
+      <p className='font-light ml-2 mt-5'>
+      Boost stamina and overall functionality
+</p>
+</div>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
+      <p className=' font-light ml-2'>
+      Dynamic stamina routines.
+      </p>
+  </div>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
+      <p className='font-light ml-2'>
+      Functional fitness exercises.
+      </p>
+  </div>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
+      <p className='font-light ml-2'>
+      Recovery optimization.
+      </p>
+  </div>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
+      <p className='font-light ml-2'>
+      Personalized life coaching.         
+          </p>
+  </div>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
+      <p className='font-light ml-2'>
+      Video-guided exercises.          
+          </p>
+  </div>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
+      <p className='font-light ml-2'>
+      Custom nutrition plans.       
+          </p>
+  </div>
+
+  <div className='flex flex-row items-center '>
+      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
+      <p className='font-light ml-2'>
+      Progress tracking.         
+          </p>
+  </div>
+
+ 
+  <a href='/Endurance'>
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-16 ml-10 
+   w-[210px] h-[60px]">
+  learn more
+  </button>
+  </a>
+
+</div>
+
+
+          <div className='box text-white bg-[#0C0C0C] w-[307px] h-[480px] flex flex-col text-[18px]'>
   <img src='./strength.png' className='w-[46.12px] h-[60px]  mt-5 ml-10'/>
 
   <span className='uppercase mt-4 ml-10'>
-  Peak Performance Program
+  Peak Performance Program (Premium Package)                     
     </span>
 
   <div className='flex flex-row items-center '>
@@ -320,162 +466,13 @@ const Services = () => {
                 </p>
   </div>
   <a href='/Peak'>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-12 ml-10
+  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-8 ml-10
    w-[210px] h-[60px]">
   learn more
   </button>
   </a>
 </div>
 
-
-
-
-<div className='box text-white bg-[#0C0C0C] w-[307px] h-[480px] flex flex-col text-[18px]'>
-  <img src='./muscle.png' className='w-[60px] h-[60px] mt-2 ml-10'/>
-
-  <span className='uppercase  mt-4 ml-10'>
-  Endurance Elite Program          
-  </span>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10 mt-5 w-[4.54px] h-[10.08px]'/>
-      <p className='font-light ml-2 mt-5'>
-      Boost stamina and overall functionality
-</p>
-</div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className=' font-light ml-2'>
-      Dynamic stamina routines.
-      </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='font-light ml-2'>
-      Functional fitness exercises.
-      </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='font-light ml-2'>
-      Recovery optimization.
-      </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='font-light ml-2'>
-      Personalized life coaching.         
-          </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='font-light ml-2'>
-      Video-guided exercises.          
-          </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='font-light ml-2'>
-      Custom nutrition plans.       
-          </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='font-light ml-2'>
-      Progress tracking.         
-          </p>
-  </div>
-
- 
-  <a href='/Endurance'>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-24 ml-10 
-   w-[210px] h-[60px]">
-  learn more
-  </button>
-  </a>
-
-</div>
-
-
-<div className='box text-white bg-[#0C0C0C] w-[307px] h-[480px] flex flex-col text-[18px]'>
-  <img src='./heart.png' className='w-[45px] h-[60px] mt-4 ml-10'/>
-
-  <span className='uppercase mt-4 ml-10'>
-  Cardio Blitz Program         
-  </span>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10 w-[4.54px] h-[10.08px]'/>
-      <p className=' font-light ml-2 mt-5'>
-      Ignite your cardiovascular health and burn fat
-            </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='font-light ml-2'>
-      Intense cardio workouts.
-      </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='font-light ml-2'>
-      Metabolic conditioning.
-      </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='font-light ml-2'>
-      Expert nutrition advice.
-      </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='font-light ml-2'>
-      Personalized life coaching.          
-          </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='font-light ml-2'>
-      High-energy cardio sessions.         
-          </p>
-  </div>
-
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='font-light ml-2'>
-      Weekly live check-ins.         
-          </p>
-  </div>
-
-  <div className='flex flex-row items-center '>
-      <img src='./arrow.png' className='ml-10  w-[4.54px] h-[10.08px]'/>
-      <p className='font-light ml-2'>
-      24/7 support via app.         
-          </p>
-  </div>
-
-
-  <a href='/Cardio'>
-  <button type="button" className="font-oswald text-white bg-[#BF0A0A] text-[16px] px-4 py-2 text-center uppercase mt-20 ml-10 
-   w-[210px] h-[60px]">
-  learn more
-  </button>
-  </a>
-          </div>
           
         </div>
        
