@@ -8,7 +8,7 @@ import Reprogram from "./Home/Reprogram/page";
 
 export default function Home() {
   <head>
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="/meta-logo.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta property="og:image" content="./preview.png" />
     <meta

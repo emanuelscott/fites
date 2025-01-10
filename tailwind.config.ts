@@ -14,6 +14,9 @@ const config: Config = {
     screens: {
       'sm': '390px',
       // => @media (min-width: 640px) { ... }
+      
+      'sm560': '560px',
+      // => @media (min-width: 640px) { ... }
 
       'md': '768px',
       // => @media (min-width: 768px) { ... }

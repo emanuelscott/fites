@@ -4,7 +4,7 @@ import Footer from '../Footer/page';
 
 const Blog = () => {
   return(
-    <main className='bg-black 2xl:w-screen min-h-screen xl:w-screen lg:w-screen md:w-screen sm:w-[390px] overflow-x-hidden '>
+    <main className='bg-black verflow-x-hidden'>
           <div className='flex flex-col text-white text-center uppercase 2xl:text-[48px] xl:text-[48px] sm:text-[38px] font-medium'>
               <h1 className='mt-20 '>blog</h1>
 
