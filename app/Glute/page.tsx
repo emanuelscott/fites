@@ -7,7 +7,7 @@ import Landing from "@/components/Landing";
 
 const GluteMaximizer = () => {
   return (
-    <main className="2xl:w-screen xl:w-screen h-screen bg-black sm:w-[390px] overflow-x-hidden relative">
+    <main className="bg-black overflow-x-hidden relative">
       <Landing
         heading="Women's program"
         title="Glute Maximizer Program"
