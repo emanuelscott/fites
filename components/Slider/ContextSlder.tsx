@@ -25,7 +25,7 @@ const ContentSlider = ({ children }: ContentSliderProps) => {
   ];
 
   return (
-    <Slide indicators={true} responsive={responsiveSettings}>
+    <Slide indicators={true} responsive={responsiveSettings} duration={500}>
       {children}
     </Slide>
   );
