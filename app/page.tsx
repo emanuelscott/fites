@@ -8,15 +8,15 @@ import Reprogram from "./Home/Reprogram/page";
 
 export default function Home() {
   <head>
-    <link rel="icon" href="/meta-logo.jpg" />
+    <link rel="icon" href="https://www.esfitness.io/meta-logo.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:image" content="./preview.png" />
+    <meta property="og:image" content="https://www.esfitness.io/preview.png" />
     <meta
       name="description"
       content=" At Emanuel Scott Fitness, we believe that greatness lies within each of us. Our mission is to empower you to discover your inner strength and achieve the extraordinary. We embrace the whole person concept, recognizing that true fitness begins with the physical and transcends to encompass spiritual, mental, emotional, social, and financial well-being. By guiding you into your destiny and serving your higher purpose, we support you through every step of your transformative journey."
     />
     <meta property="og:title" content="ESFitness" />
-    <meta name="twitter:card" content="./preview.png" />
+    <meta name="twitter:card" content="https://www.esfitness.io/preview.png" />
   </head>;
 
   return (
